@@ -31,6 +31,7 @@
     card.addEventListener("click", function (e) { if (held) { e.preventDefault(); held = false; } });
     card.addEventListener("contextmenu", function (e) { e.preventDefault(); });   // no link-preview popup on hold
     card.addEventListener("selectstart", function (e) { e.preventDefault(); });  // no text selection on hold
+    card.addEventListener("dragstart", function (e) { e.preventDefault(); });    // no drag ghost of the link on hold
   });
 })();
 

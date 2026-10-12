@@ -191,6 +191,8 @@ h1, h2, h3 { margin: 0; font-weight: inherit; font-size: inherit; }
 @media (hover: none) {
   /* a long press shows the hover artwork, so suppress the link callout / text selection */
   .card { -webkit-touch-callout: none; -webkit-tap-highlight-color: transparent; }
+  /* a long press must not start iOS drag-and-drop of the link/image (shows a floating copy) */
+  .card, .card img, .card span { -webkit-user-drag: none; }
   .work__grid, .related__grid { -webkit-user-select: none; user-select: none; }
   .card__hover { transition-duration: .35s; }
 }
