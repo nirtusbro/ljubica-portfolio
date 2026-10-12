@@ -58,6 +58,12 @@ function page({ rel, current, title, description, body, bodyClass = '' }) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${esc(title)}</title>
   <meta name="description" content="${esc(description)}">
+  <link rel="icon" href="${rel}favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="${rel}favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="${rel}favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="${rel}apple-touch-icon.png">
+  <link rel="manifest" href="${rel}site.webmanifest">
+  <meta name="theme-color" content="#f48eae">
   <script>(function(){try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t);}catch(e){}})();</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
