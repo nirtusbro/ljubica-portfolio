@@ -68,6 +68,9 @@ it with Experience on 2026-10-12).
 
 ## Notes
 
+- Card thumbnails (`assets/img/card-*.jpg`) were zoom-cropped by 12px per side (at 2x) on 2026-10-12 to
+  drop the white rounded corners baked into the Figma exports, which showed on the dark theme. If a
+  thumbnail is re-exported, export it without corner rounding or crop it the same way.
 - Light / dark mode: the header toggle sets `data-theme` on `<html>` and saves it in localStorage;
   the site always starts light; dark is only shown after the visitor clicks the toggle. Colours live in the `--bg`, `--fg`,
   `--surface`, `--related-bg`, `--footer-bg/fg` and `--muted` variables at the top of `style.css`.
