@@ -1,0 +1,65 @@
+# Ljubica Sijan — portfolio site
+
+Static site built from the Figma file "Portfolio" (page `ljubi.ca`). No framework, no build
+dependencies: plain HTML, CSS and a little JavaScript.
+
+## Files
+
+```
+index.html            home (work grid)          ← generated
+about.html            about + services          ← generated
+work/<slug>.html      one page per project      ← generated
+assets/css/style.css  all styling
+assets/js/main.js     touch fallback for the card hover artwork
+assets/img/           thumbnails, hover artwork, portrait, project images
+assets/video/         project videos (mp4) with poster frames (jpg)
+assets/svg/           logo and LinkedIn icon
+data/site.json        name, intro text, email, LinkedIn URL, nav, services
+data/projects.json    the 12 projects (title, tags, thumbnail, hover art, page content)
+build.js              regenerates the HTML from the data files
+```
+
+## Editing content
+
+1. Change text or add images in `data/site.json` / `data/projects.json`.
+2. Run `node build.js` (needs Node.js; nothing to install).
+3. Upload the whole folder to any static host (Netlify, Vercel, GitHub Pages, cPanel…).
+
+Do not edit the generated `.html` files by hand; the next build overwrites them.
+
+### Project page fields
+
+```json
+{
+  "slug": "velnea-hand-cream",
+  "title": "Velnea Hand Cream",
+  "tags": "Packaging Design, Art Direction",
+  "thumb": "assets/img/card-velnea.jpg",
+  "hover": { "src": "assets/img/hover/hover-velnea.svg" },
+  "hero": { "type": "image", "src": "assets/img/velnea/hero.jpg" },
+  "about": ["First paragraph.", "Second paragraph."],
+  "credits": ["Agency: …", "Photography: …"],
+  "gallery": [
+    { "src": "assets/img/velnea/01.jpg", "alt": "" },
+    [ { "src": "assets/img/velnea/02.jpg" }, { "src": "assets/img/velnea/03.jpg" } ],
+    { "type": "video", "src": "assets/video/velnea/clip.mp4", "poster": "assets/video/velnea/clip.jpg" }
+  ]
+}
+```
+
+- `hero.type` is `image` or `video`. Leave `src` empty to show the grey placeholder.
+- A gallery entry is one full-width item, or an array of items for a row. Items share the width,
+  unless their `w` values add up to more than 1516 (the Figma gallery width): then the row
+  becomes a horizontal scroller, each item as wide as in Figma (drag or scroll sideways).
+
+## Still to do
+
+- All 170 project images are exported from Figma (JPG at 1.5x). Each block keeps its Figma node
+  id in `data/projects.json` (`figmaNode`) in case one needs re-exporting at a higher resolution.
+- All 11 videos are in place as H.264 mp4 (1920px wide for full-width blocks, 1130px for half
+  blocks), silent and looping. Add `"controls": true` to a video item to show the player bar;
+  only the Josh campaign film has it, as it keeps its soundtrack.
+- `data/site.json` → `linkedin` is a placeholder URL.
+- The About page uses the "Greed" typeface in Figma. It is not a free font, so the site falls
+  back to Archivo. To use Greed, put the `.woff2` files in `assets/fonts/` and uncomment the
+  `@font-face` block at the top of `assets/css/style.css`.
