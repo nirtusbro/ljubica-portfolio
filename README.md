@@ -7,14 +7,14 @@ dependencies: plain HTML, CSS and a little JavaScript.
 
 ```
 index.html            home (work grid)          ← generated
-about.html            about + services          ← generated
+about.html            about + experience        ← generated
 work/<slug>.html      one page per project      ← generated
 assets/css/style.css  all styling
 assets/js/main.js     touch fallback for the card hover artwork
 assets/img/           thumbnails, hover artwork, portrait, project images
 assets/video/         project videos (mp4) with poster frames (jpg)
 assets/svg/           logo and LinkedIn icon
-data/site.json        name, intro text, email, LinkedIn URL, nav, services
+data/site.json        name, intro text, email, LinkedIn URL, nav, experience
 data/projects.json    the 12 projects (title, tags, thumbnail, hover art, page content)
 build.js              regenerates the HTML from the data files
 ```
@@ -26,6 +26,12 @@ build.js              regenerates the HTML from the data files
 3. Upload the whole folder to any static host (Netlify, Vercel, GitHub Pages, cPanel…).
 
 Do not edit the generated `.html` files by hand; the next build overwrites them.
+
+### About page
+
+`experience` in `data/site.json` is the list under the portrait: `company`, `role`, `period`.
+The older `services` key is kept in the file but no longer shown (the Figma About page replaced
+it with Experience on 2026-10-12).
 
 ### Project page fields
 
@@ -60,6 +66,3 @@ Do not edit the generated `.html` files by hand; the next build overwrites them.
   blocks), silent and looping. Add `"controls": true` to a video item to show the player bar;
   only the Josh campaign film has it, as it keeps its soundtrack.
 - `data/site.json` → `linkedin` is a placeholder URL.
-- The About page uses the "Greed" typeface in Figma. It is not a free font, so the site falls
-  back to Archivo. To use Greed, put the `.woff2` files in `assets/fonts/` and uncomment the
-  `@font-face` block at the top of `assets/css/style.css`.

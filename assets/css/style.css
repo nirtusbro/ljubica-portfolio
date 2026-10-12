@@ -1,0 +1,348 @@
+/* Ljubica Sijan — portfolio
+   Values come from the Figma file (1920w light frames). */
+
+:root {
+  --font-body: "Archivo", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-footer: Helvetica, "Helvetica Neue", Arial, sans-serif;
+
+  --black: #000;
+  --white: #fff;
+  --grey-95: #f3f3f3;
+  --grey-text: #505050;
+
+  --header-h: 100px;
+  --gutter: 32px;
+  --card-gap: 10px;
+  --radius: 20px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--white);
+  color: var(--black);
+  font-family: var(--font-body);
+  font-size: 15.5px;
+  line-height: 24.3px;
+  font-variation-settings: "wdth" 100;
+  -webkit-font-smoothing: antialiased;
+  padding-top: var(--header-h);
+}
+
+img, svg, video { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+p { margin: 0; }
+ul { margin: 0; padding: 0; list-style: none; }
+h1, h2, h3 { margin: 0; font-weight: inherit; font-size: inherit; }
+
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap;
+}
+
+/* ---------- Header ---------- */
+
+.site-header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 50;
+  height: var(--header-h);
+  background: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--gutter);
+}
+
+.site-header__logo svg { height: 31.762px; width: auto; }
+
+.site-nav ul { display: flex; gap: 78.9px; }
+
+.site-nav a {
+  display: block;
+  font-size: 13.6px;
+  line-height: 24.3px;
+  text-transform: uppercase;
+}
+
+.site-nav a:hover,
+.site-nav a[aria-current="page"] {
+  text-decoration: underline;
+  text-underline-position: from-font;
+}
+
+/* ---------- Intro ---------- */
+
+.intro {
+  padding: 40px var(--gutter) 95px;
+}
+
+.intro__text {
+  max-width: 737px;
+  font-size: 13.9px;
+  line-height: 24.3px;
+  text-transform: uppercase;
+}
+
+.intro--center { padding-top: 35px; padding-bottom: 63px; display: flex; flex-direction: column; align-items: center; }
+.intro--center .intro__text { max-width: 678px; text-align: center; margin-top: 66px; }
+
+.portrait {
+  width: 197px; height: 274px;
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.portrait img { width: 100%; height: 100%; object-fit: cover; }
+
+/* ---------- Work grid ---------- */
+
+.work {
+  padding: 0 var(--gutter);
+}
+
+.work__grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  column-gap: var(--card-gap);
+  row-gap: 0;
+}
+
+.card { display: block; }
+
+.card__media {
+  display: block;
+  position: relative;
+  aspect-ratio: 363.19 / 453.98;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--grey-95);
+  isolation: isolate;
+}
+
+.card__media > img,
+.card__layer > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card__layer { display: block; position: absolute; inset: 0; }
+.card__layer--composed > img { inset: auto; height: auto; }
+
+.card__hover {
+  display: block;
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity .25s ease;
+}
+.card__hover > img { position: absolute; inset: 0; width: 100%; height: 100%; }
+.card__hover.card__layer--composed > img { inset: auto; }
+
+@media (hover: hover) {
+  .card:hover .card__hover,
+  .card:focus-visible .card__hover { opacity: 1; }
+}
+.card.is-active .card__hover { opacity: 1; }
+
+.card__body { display: block; padding: 8px 18px 55px 0; }
+
+.card__title {
+  font-size: 14.3px;
+  line-height: 21.6px;
+  text-transform: uppercase;
+}
+
+.card__tags {
+  margin-top: 4.35px;
+  font-weight: 300;
+  font-size: 15.5px;
+  line-height: 24.3px;
+  color: var(--grey-text);
+}
+
+/* ---------- About / experience ---------- */
+
+.experience {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 var(--gutter) 113px;
+  text-align: center;
+}
+
+.experience__heading {
+  font-weight: 300;
+  font-size: 15.5px;
+  line-height: 24.3px;
+  color: var(--grey-text);
+  padding-bottom: 22px;
+}
+
+.experience__list { display: grid; gap: 10px; }
+
+.job { padding: 3px 0 5px; }
+
+.job__company {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24.3px;
+}
+
+.job__role {
+  font-size: 13.9px;
+  line-height: 24.3px;
+  text-transform: uppercase;
+  color: var(--grey-text);
+}
+
+.job__period {
+  font-weight: 300;
+  font-size: 11.8px;
+  line-height: 18.5px;
+  color: var(--grey-text);
+}
+
+/* ---------- Project page ---------- */
+
+.project { padding-top: 70px; }
+
+.project__title {
+  font-size: 32px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0 var(--gutter) 27px;
+}
+
+.project__hero {
+  margin: 0 202px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: #f0f0f0;
+  aspect-ratio: 1516 / 953;
+}
+.project__hero img, .project__hero video { width: 100%; height: 100%; object-fit: cover; }
+.project__hero--placeholder, .gallery-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 13.9px;
+  color: var(--grey-text);
+}
+
+.project__about {
+  margin: 0 312px;
+  padding: 100px 0;
+  max-width: 690px;
+  font-weight: 300;
+  font-size: 14.3px;
+  line-height: 24.3px;
+}
+.project__about h2 { font-weight: 400; font-size: 20px; line-height: 40px; text-transform: uppercase; }
+.project__about p + p { margin-top: 24.3px; }
+.project__credits { margin-top: 24.3px; color: var(--grey-text); }
+
+.project__gallery {
+  margin: 0 202px;
+  padding-bottom: 115px;
+  display: grid;
+  gap: 20px;
+}
+.gallery-row { display: grid; gap: 10px; grid-template-columns: repeat(var(--cols, 1), minmax(0, 1fr)); }
+.gallery-row figure { margin: 0; border-radius: var(--radius); overflow: hidden; background: var(--grey-95); }
+.gallery-row img, .gallery-row video { width: 100%; height: 100%; object-fit: cover; }
+
+/* Rows whose blocks overflow the Figma width scroll sideways. */
+.gallery-row--scroll {
+  display: flex;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;      /* no visible scrollbar; wheel, trackpad, touch and drag all scroll it */
+  cursor: grab;
+}
+.gallery-row--scroll::-webkit-scrollbar { display: none; }
+.gallery-row--scroll.is-dragging { cursor: grabbing; user-select: none; }
+.gallery-row--scroll figure { flex: 0 0 calc(var(--item, 50%) - 5px); }
+
+.related {
+  background: #f8f8f8;
+  padding: 95px var(--gutter);
+}
+.related__heading {
+  font-size: 25.4px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 70px;
+}
+.related__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+.related .card__body { padding-bottom: 0; }
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+  background: var(--black);
+  color: var(--white);
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: var(--font-footer);
+  font-size: 15.2px;
+  line-height: 24.3px;
+  padding: 40px var(--gutter);
+}
+.site-footer a:hover { text-decoration: underline; }
+.site-footer__social { margin-top: 16.4px; }
+.site-footer__social svg { width: 19.47px; height: 19.47px; }
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 1500px) {
+  .work__grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .project__hero, .project__gallery { margin-left: 80px; margin-right: 80px; }
+  .project__about { margin-left: 120px; margin-right: 80px; }
+}
+
+@media (max-width: 1100px) {
+  .work__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .related__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .site-nav ul { gap: 40px; }
+}
+
+@media (max-width: 800px) {
+  :root { --header-h: 72px; --gutter: 16px; }
+  .site-header__logo svg { height: 22px; }
+  .site-nav ul { gap: 20px; }
+  .work__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .intro { padding-bottom: 50px; }
+  .intro--center .intro__text { margin-top: 40px; }
+  .experience { padding-bottom: 50px; }
+  .project__title { font-size: 24px; line-height: 30px; }
+  .project__hero, .project__gallery { margin-left: var(--gutter); margin-right: var(--gutter); }
+  .project__about { margin: 0 var(--gutter); padding: 50px 0; }
+  .project__gallery { gap: 10px; padding-bottom: 50px; }
+  .gallery-row { grid-template-columns: repeat(min(var(--cols, 1), 2), minmax(0, 1fr)); }
+  .gallery-row--scroll figure { flex-basis: 80%; }
+  .related { padding: 50px var(--gutter); }
+  .related__heading { font-size: 18px; padding-bottom: 30px; }
+}
+
+@media (max-width: 480px) {
+  .work__grid { grid-template-columns: 1fr; }
+  .related__grid { grid-template-columns: 1fr; }
+  .gallery-row { grid-template-columns: 1fr; }
+  .site-nav a { font-size: 12px; }
+}

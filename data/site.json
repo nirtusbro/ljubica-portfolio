@@ -1,0 +1,93 @@
+{
+  "name": "Ljubica Sijan",
+  "title": "Ljubica Sijan — Senior Graphic Designer",
+  "description": "Senior Graphic Designer working across brand identity, concept development, packaging, AI-assisted design, and integrated marketing campaigns.",
+  "intro": [
+    "Senior Graphic Designer working across brand identity, concept development, packaging, AI-assisted design, and integrated marketing campaigns.",
+    "I combine strategic thinking with a strong visual approach to create distinctive, cohesive brand experiences across digital and physical touchpoints."
+  ],
+  "email": "ljubica.dj61@gmail.com",
+  "linkedin": "https://www.linkedin.com/",
+  "nav": [
+    {
+      "label": "Work",
+      "href": "index.html",
+      "id": "work"
+    },
+    {
+      "label": "About",
+      "href": "about.html",
+      "id": "about"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact",
+      "id": "contact"
+    }
+  ],
+  "services": [
+    {
+      "title": "Design:",
+      "text": "We activate a brand’s essence through strong visual identities across all platforms. Making use of all design elements, our brands are sure to reflect purpose and unique personality.",
+      "items": [
+        "Art Direction",
+        "Branding Identity",
+        "Campaigns",
+        "Digital & Web Design",
+        "Packaging Design",
+        "Print"
+      ]
+    },
+    {
+      "title": "Strategy:",
+      "text": "With a human-centered approach, we help our client’s establish foundational pillars that lead them to connect to their audiences in authentic ways. We equip our brands with the tools necessary to move forward and stay culturally relevant.",
+      "items": [
+        "Brand Strategy",
+        "Communications Strategy",
+        "Content Strategy & Creation",
+        "Naming",
+        "Campaigns",
+        "E-commerce"
+      ]
+    },
+    {
+      "title": "Events:",
+      "text": "From concept to completion, we design experiences that go beyond the expected. With our strong attention to detail we are capable of creating moments that are singular, lasting and memorable.",
+      "items": [
+        "Creative Direction & Production",
+        "Spatial Design",
+        "Food & Beverage",
+        "Brand Activation",
+        "Gifting",
+        "Talent"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Miro",
+      "role": "Senior Graphic Designer",
+      "period": "Jun 2024 - Present • Full-time"
+    },
+    {
+      "company": "Why Not Agency",
+      "role": "Head of Design",
+      "period": "Oct 2021 - Dec 2023 • Full-time"
+    },
+    {
+      "company": "Popular Communications",
+      "role": "Senior Graphic Designer",
+      "period": "Apr 2019 - Oct 2021 • Full-time"
+    },
+    {
+      "company": "Leo Burnett",
+      "role": "Graphic Designer",
+      "period": "Jan 2018 - Apr 2019 • Full-time"
+    },
+    {
+      "company": "de:work",
+      "role": "Graphic Design Intern",
+      "period": "Aug 2017 - Oct 2017 • Internship"
+    }
+  ]
+}

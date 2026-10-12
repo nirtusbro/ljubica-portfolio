@@ -1,0 +1,1398 @@
+[
+ {
+  "slug": "miro-personalised-stickers",
+  "title": "Miro Personalised Stickers",
+  "tags": "AI-Assisted Illustration, Event Design",
+  "thumb": "assets/img/card-miro-stickers.jpg",
+  "hover": {
+   "src": "assets/img/hover/hover-miro-stickers.svg"
+  },
+  "hero": {
+   "type": "video",
+   "w": 1516,
+   "h": 953,
+   "src": "assets/video/miro-personalised-stickers/miro-stickers-hero.mp4",
+   "poster": "assets/video/miro-personalised-stickers/miro-stickers-hero.jpg"
+  },
+  "about": [
+   "A personalised sticker experience created to bring creativity and self-expression into the Miro workspace.",
+   "The project involved developing AI prompts to establish distinct illustration styles for personalised stickers that users could generate and add directly to their Miro boards. For Canvas 26, the experience was extended into a physical event activation, allowing attendees to create and print their own stickers on-site.",
+   "I worked on defining the AI-generated illustration styles and designing the event booth, connecting the digital experience with a playful, interactive physical space.",
+   "My role: AI Art Direction, Illustration Style Development, Event Booth Design",
+   "* This project was developed as part of a collaborative creative team."
+  ],
+  "credits": [],
+  "gallery": [
+   {
+    "type": "image",
+    "src": "assets/img/projects/miro-personalised-stickers/01.jpg",
+    "w": 1516,
+    "h": 604
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/miro-personalised-stickers/02.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/miro-personalised-stickers/03.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/miro-personalised-stickers/04.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/miro-personalised-stickers/05.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/miro-personalised-stickers/06.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/miro-personalised-stickers/07.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/miro-personalised-stickers/08.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/miro-personalised-stickers/09.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ]
+  ]
+ },
+ {
+  "slug": "get-great-done-miro-tagline",
+  "title": "Get Great Done / Miro Tagline",
+  "tags": "Brand Guidelines, Typography",
+  "thumb": "assets/img/card-get-great-done.jpg",
+  "hover": {
+   "src": "assets/img/hover/hover-get-great-done.svg"
+  },
+  "hero": {
+   "type": "image",
+   "src": "assets/img/projects/get-great-done-miro-tagline/hero.jpg",
+   "w": 1516,
+   "h": 953
+  },
+  "about": [
+   "Get Great Done is Miro's brand tagline, celebrating how AI-powered collaboration helps people achieve their own version of greatness — from creative breakthroughs to greater efficiency and better ways of working.",
+   "The challenge was to translate this message into a distinctive visual lockup. By integrating Miro's recognisable AI sparkle into the typography, the design creates a direct connection between the tagline and the product's AI capabilities. I developed the visual lockup and a comprehensive set of brand guidelines, defining its structure, variations and applications to ensure consistency across different brand touchpoints.",
+   "My role: Visual Lockup Design, Typography, Brand Guidelines",
+   "* This project was developed as part of a collaborative creative team."
+  ],
+  "credits": [],
+  "gallery": [
+   {
+    "type": "image",
+    "src": "assets/img/projects/get-great-done-miro-tagline/01.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/get-great-done-miro-tagline/02.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/get-great-done-miro-tagline/03.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/get-great-done-miro-tagline/04.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "video",
+     "w": 753,
+     "h": 864,
+     "src": "assets/video/get-great-done-miro-tagline/get-great-done.mp4",
+     "poster": "assets/video/get-great-done-miro-tagline/get-great-done.jpg"
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/get-great-done-miro-tagline/06.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/get-great-done-miro-tagline/07.jpg",
+    "w": 1516,
+    "h": 913
+   }
+  ]
+ },
+ {
+  "slug": "fun-and-fit-granola",
+  "title": "Fun & Fit Granola",
+  "tags": "Packaging Design, Art Direction",
+  "thumb": "assets/img/card-granola.jpg",
+  "hover": {
+   "src": "assets/img/hover/hover-granola.svg"
+  },
+  "hero": {
+   "type": "image",
+   "src": "assets/img/projects/fun-and-fit-granola/hero.jpg",
+   "w": 1516,
+   "h": 953
+  },
+  "about": [
+   "A fresh packaging concept for Fun&Fit's four-flavour granola range, designed to stand out on the shelf while highlighting the product itself. The central design feature is a custom-shaped cutout inspired by the form of a cereal grain, revealing the granola inside. Combined with a soft pastel colour palette and playful typography, the packaging creates a distinctive and recognisable product family.  The launch was supported by an outdoor campaign built around the message \"Beauty Is Inside.\" Oversized granola packaging became the visual inspiration for a series of citylight advertisements, bringing the product's signature design into the urban environment.  Following its launch, Granola achieved the fastest sales growth recorded within the Fun&Fit portfolio at the time.",
+   "My role: Packaging Design, Visual Concept Development, OOH Design"
+  ],
+  "credits": [],
+  "gallery": [
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-granola/01.jpg",
+     "w": 373,
+     "h": 428
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-granola/02.jpg",
+     "w": 373,
+     "h": 428
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-granola/03.jpg",
+     "w": 373,
+     "h": 428
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-granola/04.jpg",
+     "w": 373,
+     "h": 428
+    }
+   ],
+   {
+    "type": "video",
+    "w": 1516,
+    "h": 913,
+    "src": "assets/video/fun-and-fit-granola/granola-1.mp4",
+    "poster": "assets/video/fun-and-fit-granola/granola-1.jpg"
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/fun-and-fit-granola/06.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-granola/07.jpg",
+     "w": 501,
+     "h": 575
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-granola/08.jpg",
+     "w": 501,
+     "h": 575
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-granola/09.jpg",
+     "w": 501,
+     "h": 575
+    }
+   ],
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-granola/10.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-granola/11.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/fun-and-fit-granola/12.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-granola/13.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-granola/14.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-granola/15.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-granola/16.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-granola/17.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-granola/18.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "video",
+    "w": 1516,
+    "h": 913,
+    "src": "assets/video/fun-and-fit-granola/granola-2.mp4",
+    "poster": "assets/video/fun-and-fit-granola/granola-2.jpg"
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/fun-and-fit-granola/20.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-granola/21.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-granola/22.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/fun-and-fit-granola/23.jpg",
+    "w": 1516,
+    "h": 913
+   }
+  ]
+ },
+ {
+  "slug": "lepo-event-studio",
+  "title": "Lepo Event Studio",
+  "tags": "Brand Identity, Brand Guidelines",
+  "thumb": "assets/img/card-lepo.jpg",
+  "hover": {
+   "src": "assets/img/hover/hover-lepo.svg"
+  },
+  "hero": {
+   "type": "image",
+   "src": "assets/img/projects/lepo-event-studio/hero.jpg",
+   "w": 1516,
+   "h": 953
+  },
+  "about": [
+   "LEPO is an event design studio specialising in thoughtfully curated celebrations, with a particular focus on weddings. The visual identity was developed around the idea of finding beauty in every detail. Elegant typography, organic shapes and delicate decorative elements reflect the studio's refined and personal approach to event styling. At the heart of the identity is a custom typographic logo inspired by intertwined ribbons and floral ornaments. A subtle connection between the letters \"p\" and \"o\" forms two interlocking wedding rings, introducing a meaningful detail into the design. The project includes a complete visual identity system, from logo development and colour palette to typography, brand guidelines and applications.",
+   "My role: Brand Identity, Logo Design, Brand Guidelines"
+  ],
+  "credits": [],
+  "gallery": [
+   {
+    "type": "image",
+    "src": "assets/img/projects/lepo-event-studio/01.jpg",
+    "w": 1516,
+    "h": 608
+   },
+   {
+    "type": "video",
+    "w": 1516,
+    "h": 913,
+    "src": "assets/video/lepo-event-studio/lepo-1.mp4",
+    "poster": "assets/video/lepo-event-studio/lepo-1.jpg"
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/lepo-event-studio/03.jpg",
+    "w": 1516,
+    "h": 445
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/lepo-event-studio/04.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/lepo-event-studio/05.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/lepo-event-studio/06.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/lepo-event-studio/07.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/lepo-event-studio/08.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/lepo-event-studio/09.jpg",
+    "w": 1516,
+    "h": 352
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/lepo-event-studio/10.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/lepo-event-studio/11.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/lepo-event-studio/12.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/lepo-event-studio/13.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "video",
+     "w": 753,
+     "h": 864,
+     "src": "assets/video/lepo-event-studio/lepo-2.mp4",
+     "poster": "assets/video/lepo-event-studio/lepo-2.jpg"
+    }
+   ],
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/lepo-event-studio/15.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/lepo-event-studio/16.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/lepo-event-studio/17.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/lepo-event-studio/18.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/lepo-event-studio/19.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/lepo-event-studio/20.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/lepo-event-studio/21.jpg",
+    "w": 1516,
+    "h": 913
+   }
+  ]
+ },
+ {
+  "slug": "alle-marie",
+  "title": "Alle ’ Marie",
+  "tags": "Brand Identity, Brand Guidelines",
+  "thumb": "assets/img/card-alle-marie.jpg",
+  "hover": {
+   "src": "assets/img/hover/hover-alle-marie.svg"
+  },
+  "hero": {
+   "type": "image",
+   "src": "assets/img/projects/alle-marie/hero.jpg",
+   "w": 1516,
+   "h": 953
+  },
+  "about": [
+   "A minimalist visual identity for Alle'Marie, a fashion studio with a focus on simplicity and understated elegance. The identity is built around a distinctive typographic logo, where carefully considered letterforms create a refined and timeless visual expression. The project includes logo development, typography, colour palette and a complete set of brand guidelines, establishing a consistent visual language across the studio's brand applications.",
+   "My role: Brand Identity, Logo Design, Brand Guidelines"
+  ],
+  "credits": [],
+  "gallery": [
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/alle-marie/01.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/alle-marie/02.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/alle-marie/03.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/alle-marie/04.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/alle-marie/05.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/alle-marie/06.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/alle-marie/07.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/alle-marie/08.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/alle-marie/09.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/alle-marie/10.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/alle-marie/11.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/alle-marie/12.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/alle-marie/13.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/alle-marie/14.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/alle-marie/15.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/alle-marie/16.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/alle-marie/17.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/alle-marie/18.jpg",
+    "w": 1516,
+    "h": 913
+   }
+  ]
+ },
+ {
+  "slug": "miro-100-wayfinding-system",
+  "title": "Miro 100 / Wayfinding System",
+  "tags": "Wayfinding Design, Environmental Graphics",
+  "thumb": "assets/img/card-miro-100.jpg",
+  "hover": {
+   "src": "assets/img/hover/hover-miro-100.svg"
+  },
+  "hero": {
+   "type": "image",
+   "src": "assets/img/projects/miro-100-wayfinding-system/hero.jpg",
+   "w": 1516,
+   "h": 953
+  },
+  "about": [
+   "A wayfinding system developed for Miro's Amsterdam office, designed to make navigation intuitive while bringing the brand's digital identity into the physical workspace. Inspired by the familiar grid structure of a Miro board, the design translates a recognisable product element into a functional architectural feature. A modular system of typography, colour coding and directional information creates a consistent visual language across different floors and office zones. The result is a wayfinding experience that connects the digital and physical worlds of Miro.",
+   "My role: Wayfinding Design, Environmental Graphics, Visual System Development",
+   "* This project was developed as part of a collaborative creative team."
+  ],
+  "credits": [],
+  "gallery": [
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/miro-100-wayfinding-system/01.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/miro-100-wayfinding-system/02.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/miro-100-wayfinding-system/03.jpg",
+    "w": 1516,
+    "h": 830
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/miro-100-wayfinding-system/04.jpg",
+    "w": 1516,
+    "h": 475
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/miro-100-wayfinding-system/05.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/miro-100-wayfinding-system/06.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/miro-100-wayfinding-system/07.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/miro-100-wayfinding-system/08.jpg",
+    "w": 1516,
+    "h": 913
+   }
+  ]
+ },
+ {
+  "slug": "velnea-hand-cream",
+  "title": "Velnea Hand Cream",
+  "tags": "Packaging Design, Art Direction",
+  "thumb": "assets/img/card-velnea.jpg",
+  "hover": {
+   "src": "assets/img/hover/hover-velnea.svg"
+  },
+  "hero": {
+   "type": "image",
+   "src": "assets/img/projects/velnea-hand-cream/hero.jpg",
+   "w": 1516,
+   "h": 953
+  },
+  "about": [
+   "A complete packaging redesign for Velnea's hand cream collection, introducing a fresh and playful visual identity across the product range. The new design combines vibrant colours with small, expressive illustrations inspired by each fragrance. Created with a younger audience in mind, the packaging brings a more contemporary and approachable personality to the brand while maintaining consistency across different variants and two product sizes.",
+   "My role: Packaging Design, Illustration Art Direction, Product Range Design",
+   "* This project was developed in collaboration with another designer."
+  ],
+  "credits": [],
+  "gallery": [
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/01.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/02.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/03.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/04.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/05.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/velnea-hand-cream/06.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/07.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/08.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/velnea-hand-cream/09.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   {
+    "type": "video",
+    "w": 1516,
+    "h": 913,
+    "src": "assets/video/velnea-hand-cream/velnea.mp4",
+    "poster": "assets/video/velnea-hand-cream/velnea.jpg"
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/11.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/12.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/13.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/14.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/15.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/16.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/17.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/velnea-hand-cream/18.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/19.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/20.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/velnea-hand-cream/21.jpg",
+    "w": 1516,
+    "h": 913
+   }
+  ]
+ },
+ {
+  "slug": "rozeta-resort-and-residence",
+  "title": "Rozeta Resort & Residence",
+  "tags": "Brand Identity, Brand Guidelines",
+  "thumb": "assets/img/card-rozeta.jpg",
+  "hover": {
+   "src": "assets/img/hover/hover-rozeta.svg"
+  },
+  "hero": {
+   "type": "image",
+   "src": "assets/img/projects/rozeta-resort-and-residence/hero.jpg",
+   "w": 1516,
+   "h": 953
+  },
+  "about": [
+   "A visual identity for Rozeta Resort & Residence, a luxury mountain retreat located in the heart of Kopaonik, Serbia. Inspired by the architectural rosette, the brand symbol brings together references to snowflakes, mountain peaks and the natural surroundings of the resort. Its twelve petals also represent the twelve months of the year, reflecting the destination's year-round appeal. The geometric symbol became the foundation of a cohesive visual language, extending across decorative patterns, brand applications and communication materials. I developed the complete visual identity, including the logo, graphic system, brand guidelines and applications, creating a distinctive balance between contemporary elegance and mountain-inspired aesthetics.",
+   "My role: Brand Identity, Logo Design, Brand Guidelines"
+  ],
+  "credits": [],
+  "gallery": [
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/rozeta-resort-and-residence/01.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/rozeta-resort-and-residence/02.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/rozeta-resort-and-residence/03.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/rozeta-resort-and-residence/04.jpg",
+    "w": 1516,
+    "h": 445
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/rozeta-resort-and-residence/05.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/rozeta-resort-and-residence/06.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/rozeta-resort-and-residence/07.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/rozeta-resort-and-residence/08.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/rozeta-resort-and-residence/09.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/rozeta-resort-and-residence/10.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/rozeta-resort-and-residence/11.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/rozeta-resort-and-residence/12.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/rozeta-resort-and-residence/13.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/rozeta-resort-and-residence/14.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/rozeta-resort-and-residence/15.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/rozeta-resort-and-residence/16.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/rozeta-resort-and-residence/17.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/rozeta-resort-and-residence/18.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ]
+  ]
+ },
+ {
+  "slug": "fun-and-fit-plum-pleasure",
+  "title": "Fun & Fit Plum Pleasure",
+  "tags": "Packaging Design, Art Direction",
+  "thumb": "assets/img/card-plum-pleasure.jpg",
+  "hover": {
+   "src": "assets/img/hover/hover-plum-pleasure.svg"
+  },
+  "hero": {
+   "type": "image",
+   "src": "assets/img/projects/fun-and-fit-plum-pleasure/hero.jpg",
+   "w": 1516,
+   "h": 953
+  },
+  "about": [
+   "A packaging design for Fun&Fit Plum Pleasure, a chocolate-covered plum treat inspired by the timeless charm of traditional confectionery. The concept draws on classic chocolate gift boxes, combining decorative details, subtle ornamental elements and a rich purple colour palette. The result is a playful yet elegant packaging design that gives the product a distinctive, gift-worthy character.",
+   "My role: Packaging Design, Visual Concept Development"
+  ],
+  "credits": [],
+  "gallery": [
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-plum-pleasure/01.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-plum-pleasure/02.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-plum-pleasure/03.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-plum-pleasure/04.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/fun-and-fit-plum-pleasure/05.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-plum-pleasure/06.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-plum-pleasure/07.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/fun-and-fit-plum-pleasure/08.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-plum-pleasure/09.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-plum-pleasure/10.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-plum-pleasure/11.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-plum-pleasure/12.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-plum-pleasure/13.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-plum-pleasure/14.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ]
+  ]
+ },
+ {
+  "slug": "josh-campaign",
+  "title": "Josh Campaign",
+  "tags": "OOH Campaign Design",
+  "thumb": "assets/img/card-josh.jpg",
+  "hover": {
+   "src": "assets/img/hover/hover-josh.svg"
+  },
+  "hero": {
+   "type": "image",
+   "src": "assets/img/projects/josh-campaign/hero.jpg",
+   "w": 1516,
+   "h": 953
+  },
+  "about": [
+   "A bold and energetic campaign for JOSH!, a snack brand by Bambi, created to connect with a new generation of consumers. The campaign introduced Black Fish, a mysterious female rapper and graffiti artist, as the face of a new communication platform inspired by youth culture, trap music and contemporary social media trends. As part of the agency's creative team, I worked on the campaign's key visuals and out-of-home executions, translating its rebellious attitude into striking, high-impact graphics designed to capture attention in urban spaces.",
+   "My role: Key Visual Design, OOH Campaign Design",
+   "* This project was developed as part of a collaborative creative team."
+  ],
+  "credits": [],
+  "gallery": [
+   {
+    "type": "video",
+    "w": 1516,
+    "h": 913,
+    "src": "assets/video/josh-campaign/josh.mp4",
+    "poster": "assets/video/josh-campaign/josh.jpg",
+    "controls": true
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/josh-campaign/02.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/josh-campaign/03.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/josh-campaign/04.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/josh-campaign/05.jpg",
+    "w": 1516,
+    "h": 913
+   }
+  ]
+ },
+ {
+  "slug": "casetta-pizzeria",
+  "title": "Casetta Pizzeria",
+  "tags": "Brand Identity, Brand Guidelines",
+  "thumbComposed": {
+   "background": "#c4c4c4",
+   "src": "assets/img/card-casetta-photo.jpg",
+   "style": "width:170.16%;height:102.21%;left:50.11%;top:49.98%;transform:translate(-50%,-50%)"
+  },
+  "hover": {
+   "src": "assets/img/hover/hover-casetta.svg"
+  },
+  "hero": {
+   "type": "image",
+   "src": "assets/img/projects/casetta-pizzeria/hero.jpg",
+   "w": 1516,
+   "h": 953
+  },
+  "about": [
+   "A visual identity for Casetta Pizzeria, inspired by the decorative ceramic tiles traditionally found across Spain and Portugal. The logo combines the geometric character of Mediterranean tile patterns with stylised pizza slices, creating a distinctive symbol that connects the restaurant's identity with its culinary offering. The decorative motif forms the foundation of the wider brand system, extending across packaging and other applications to create a warm, recognisable and cohesive visual identity.",
+   "My role: Brand Identity, Logo Design, Brand Guidelines"
+  ],
+  "credits": [],
+  "gallery": [
+   [
+    {
+     "type": "video",
+     "w": 753,
+     "h": 864,
+     "src": "assets/video/casetta-pizzeria/casetta-1.mp4",
+     "poster": "assets/video/casetta-pizzeria/casetta-1.jpg"
+    },
+    {
+     "type": "video",
+     "w": 753,
+     "h": 864,
+     "src": "assets/video/casetta-pizzeria/casetta-2.mp4",
+     "poster": "assets/video/casetta-pizzeria/casetta-2.jpg"
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/casetta-pizzeria/03.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/casetta-pizzeria/04.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/casetta-pizzeria/05.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   [
+    {
+     "type": "video",
+     "w": 753,
+     "h": 864,
+     "src": "assets/video/casetta-pizzeria/casetta-3.mp4",
+     "poster": "assets/video/casetta-pizzeria/casetta-3.jpg"
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/casetta-pizzeria/07.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/casetta-pizzeria/08.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/casetta-pizzeria/09.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/casetta-pizzeria/10.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/casetta-pizzeria/11.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/casetta-pizzeria/12.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/casetta-pizzeria/13.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/casetta-pizzeria/14.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/casetta-pizzeria/15.jpg",
+    "w": 1516,
+    "h": 913
+   }
+  ]
+ },
+ {
+  "slug": "floral-illustrations",
+  "title": "Floral Illustrations",
+  "tags": "Illustration",
+  "thumbComposed": {
+   "background": "#2c2626",
+   "src": "assets/img/card-floral-photo.jpg",
+   "style": "width:70.21%;height:80.18%;left:14.54%;top:10.04%"
+  },
+  "hoverComposed": {
+   "background": "#df4c19",
+   "src": "assets/img/hover/hover-floral-flower.png",
+   "style": "width:40.11%;height:45.84%;left:49.46%;top:50.97%;transform:translate(-50%,-50%)"
+  },
+  "hero": {
+   "type": "image",
+   "src": "assets/img/projects/floral-illustrations/hero.jpg",
+   "w": 1516,
+   "h": 953
+  },
+  "about": [
+   "A series of floral illustrations developed in collaboration with an architectural studio for an interior design project. Inspired by organic shapes and botanical forms, the illustrations were created to complement the character of the space, bringing a subtle artistic and decorative element into the interior.",
+   "My role: Illustration, Visual Concept Development"
+  ],
+  "credits": [],
+  "gallery": [
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/floral-illustrations/01.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/floral-illustrations/02.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/floral-illustrations/03.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/floral-illustrations/04.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/floral-illustrations/05.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/floral-illustrations/06.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/floral-illustrations/07.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/floral-illustrations/08.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/floral-illustrations/09.jpg",
+    "w": 1516,
+    "h": 913
+   }
+  ]
+ }
+]
