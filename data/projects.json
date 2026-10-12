@@ -172,32 +172,35 @@
   ],
   "credits": [],
   "gallery": [
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/fun-and-fit-granola/01.jpg",
-     "w": 373,
-     "h": 428
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/fun-and-fit-granola/02.jpg",
-     "w": 373,
-     "h": 428
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/fun-and-fit-granola/03.jpg",
-     "w": 373,
-     "h": 428
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/fun-and-fit-granola/04.jpg",
-     "w": 373,
-     "h": 428
-    }
-   ],
+   {
+    "mobileScroll": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/img/projects/fun-and-fit-granola/01.jpg",
+      "w": 373,
+      "h": 428
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/fun-and-fit-granola/02.jpg",
+      "w": 373,
+      "h": 428
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/fun-and-fit-granola/03.jpg",
+      "w": 373,
+      "h": 428
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/fun-and-fit-granola/04.jpg",
+      "w": 373,
+      "h": 428
+     }
+    ]
+   },
    {
     "type": "video",
     "w": 1516,
@@ -211,26 +214,29 @@
     "w": 1516,
     "h": 913
    },
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/fun-and-fit-granola/07.jpg",
-     "w": 501,
-     "h": 575
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/fun-and-fit-granola/08.jpg",
-     "w": 501,
-     "h": 575
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/fun-and-fit-granola/09.jpg",
-     "w": 501,
-     "h": 575
-    }
-   ],
+   {
+    "mobileScroll": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/img/projects/fun-and-fit-granola/07.jpg",
+      "w": 501,
+      "h": 575
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/fun-and-fit-granola/08.jpg",
+      "w": 501,
+      "h": 575
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/fun-and-fit-granola/09.jpg",
+      "w": 501,
+      "h": 575
+     }
+    ]
+   },
    [
     {
      "type": "image",
@@ -265,34 +271,36 @@
      "h": 864
     }
    ],
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/fun-and-fit-granola/15.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/fun-and-fit-granola/16.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/fun-and-fit-granola/17.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/fun-and-fit-granola/18.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
+   {
+    "mobileScroll": true,
+    "cols": 2,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/img/projects/fun-and-fit-granola/15.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/fun-and-fit-granola/16.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/fun-and-fit-granola/17.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/fun-and-fit-granola/18.jpg",
+      "w": 753,
+      "h": 864
+     }
+    ]
+   },
    {
     "type": "video",
     "w": 1516,
@@ -385,40 +393,46 @@
     "w": 1516,
     "h": 913
    },
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/lepo-event-studio/07.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/lepo-event-studio/08.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
+   {
+    "mobileScroll": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/img/projects/lepo-event-studio/07.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/lepo-event-studio/08.jpg",
+      "w": 753,
+      "h": 864
+     }
+    ]
+   },
    {
     "type": "image",
     "src": "assets/img/projects/lepo-event-studio/09.jpg",
     "w": 1516,
     "h": 352
    },
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/lepo-event-studio/10.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/lepo-event-studio/11.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
+   {
+    "mobileScroll": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/img/projects/lepo-event-studio/10.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/lepo-event-studio/11.jpg",
+      "w": 753,
+      "h": 864
+     }
+    ]
+   },
    {
     "type": "image",
     "src": "assets/img/projects/lepo-event-studio/12.jpg",
@@ -468,20 +482,23 @@
      "h": 864
     }
    ],
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/lepo-event-studio/19.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/lepo-event-studio/20.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
+   {
+    "mobileScroll": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/img/projects/lepo-event-studio/19.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/lepo-event-studio/20.jpg",
+      "w": 753,
+      "h": 864
+     }
+    ]
+   },
    {
     "type": "image",
     "src": "assets/img/projects/lepo-event-studio/21.jpg",
@@ -1335,20 +1352,23 @@
   ],
   "credits": [],
   "gallery": [
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/floral-illustrations/01.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/floral-illustrations/02.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
+   {
+    "mobileScroll": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/img/projects/floral-illustrations/01.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/floral-illustrations/02.jpg",
+      "w": 753,
+      "h": 864
+     }
+    ]
+   },
    {
     "type": "image",
     "src": "assets/img/projects/floral-illustrations/03.jpg",

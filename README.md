@@ -10,7 +10,7 @@ index.html            home (work grid)          ← generated
 about.html            about + experience        ← generated
 work/<slug>.html      one page per project      ← generated
 assets/css/style.css  all styling
-assets/js/main.js     touch fallback for the card hover artwork
+assets/js/main.js     card hover on touch, horizontal rows, video play/pause, light/dark toggle
 assets/img/           thumbnails, hover artwork, portrait, project images
 assets/video/         project videos (mp4) with poster frames (jpg)
 assets/svg/           logo and LinkedIn icon
@@ -57,12 +57,20 @@ it with Experience on 2026-10-12).
 - A gallery entry is one full-width item, or an array of items for a row. Items share the width,
   unless their `w` values add up to more than 1516 (the Figma gallery width): then the row
   becomes a horizontal scroller, each item as wide as in Figma (drag or scroll sideways).
+- On phones a multi-item row normally stacks. To keep it side by side as a swipeable strip
+  instead, write the row as `{ "mobileScroll": true, "items": [ ... ] }`. Add `"cols": 2` to such a
+  row to lay its items out as 2 per line on desktop (e.g. 4 images as a 2x2 block) while the
+  phone strip still shows all of them in one swipe.
 
-## Still to do
+## Notes
+
+- Light / dark mode: the header toggle sets `data-theme` on `<html>` and saves it in localStorage;
+  without a choice the site follows the phone/computer setting. Colours live in the `--bg`, `--fg`,
+  `--surface`, `--related-bg`, `--footer-bg/fg` and `--muted` variables at the top of `style.css`.
+  The logo and LinkedIn icon use `currentColor` so they follow the theme.
 
 - All 170 project images are exported from Figma (JPG at 1.5x). Each block keeps its Figma node
   id in `data/projects.json` (`figmaNode`) in case one needs re-exporting at a higher resolution.
 - All 11 videos are in place as H.264 mp4 (1920px wide for full-width blocks, 1130px for half
   blocks), silent and looping. Add `"controls": true` to a video item to show the player bar;
   only the Josh campaign film has it, as it keeps its soundtrack.
-- `data/site.json` → `linkedin` is a placeholder URL.

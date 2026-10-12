@@ -27,11 +27,16 @@ function header(rel, current) {
     <a class="site-header__logo" href="${rel}index.html" aria-label="${esc(site.name)} — home">
       ${logoSvg}
     </a>
-    <nav class="site-nav" aria-label="Main">
-      <ul>
+    <div class="site-header__right">
+      <nav class="site-nav" aria-label="Main">
+        <ul>
 ${links}
-      </ul>
-    </nav>
+        </ul>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Light / dark">
+        <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><circle cx="10" cy="10" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10 1a9 9 0 0 1 0 18z" fill="currentColor"/></svg>
+      </button>
+    </div>
   </header>`;
 }
 
@@ -53,6 +58,7 @@ function page({ rel, current, title, description, body, bodyClass = '' }) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${esc(title)}</title>
   <meta name="description" content="${esc(description)}">
+  <script>(function(){try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t);}catch(e){}})();</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100,300;100,400;100,500&display=swap" rel="stylesheet">
@@ -157,16 +163,24 @@ function itemHtml(it, rel) {
 function galleryHtml(gallery, rel) {
   if (!gallery || !gallery.length) return '';
   const rows = gallery.map((row) => {
+    // A row is one item, an array of items, or { mobileScroll: true, items: [...] } for rows
+    // that keep their side-by-side layout on phones as a horizontal scroller instead of stacking.
+    // Such a row may also set `cols` to wrap into that many columns on desktop (e.g. 4 items as 2x2).
+    const mobileScroll = !Array.isArray(row) && row.items ? !!row.mobileScroll : false;
+    const forcedCols = !Array.isArray(row) && row.items ? row.cols : undefined;
+    if (!Array.isArray(row) && row.items) row = row.items;
     const items = Array.isArray(row) ? row : [row];
     // A row scrolls sideways when its blocks' Figma widths overflow the 1516px gallery width.
     const ROW_W = 1516, GAP = 10;
     const natural = items.reduce((s, it) => s + (it.w || 0), 0) + GAP * (items.length - 1);
-    const scroll = items.length > 1 && natural > ROW_W * 1.05;
+    const scroll = items.length > 1 && !forcedCols && natural > ROW_W * 1.05;
     let style = '';
     if (scroll) style = ` style="--item:${(items[0].w / ROW_W * 100).toFixed(2)}%"`;
-    else if (items.length > 1) style = ` style="--cols:${items.length}"`;
+    else if (items.length > 1) style = ` style="--cols:${forcedCols || items.length}"`;
     const figs = items.map((it) => '          ' + itemHtml(it, rel)).join('\n');
-    return `        <div class="gallery-row${scroll ? ' gallery-row--scroll' : ''}"${style}>\n${figs}\n        </div>`;
+    const cls = 'gallery-row' + (scroll ? ' gallery-row--scroll' : '') + (mobileScroll && !scroll ? ' gallery-row--mobile-scroll' : '');
+    const count = mobileScroll ? ` data-n="${items.length}"` : '';
+    return `        <div class="${cls}"${style}${count}>\n${figs}\n        </div>`;
   }).join('\n');
   return `      <div class="project__gallery">\n${rows}\n      </div>`;
 }

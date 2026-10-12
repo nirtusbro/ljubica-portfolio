@@ -1,24 +1,42 @@
 // Small enhancements; the site works without JavaScript.
+// On touch screens there is no hover, so the hover artwork on a card is shown
+//  - while scrolling, for the card(s) passing through the middle of the screen, and
+//  - on a long press (hold without lifting); a plain tap opens the project as usual.
 (function () {
-  // On touch devices there is no hover, so a first tap on a card reveals the
-  // hover artwork and a second tap follows the link.
-  if (window.matchMedia('(hover: none)').matches) {
-    var cards = document.querySelectorAll('.card[data-has-hover]');
-    cards.forEach(function (card) {
-      card.addEventListener('click', function (e) {
-        if (!card.classList.contains('is-active')) {
-          e.preventDefault();
-          cards.forEach(function (c) { c.classList.remove('is-active'); });
-          card.classList.add('is-active');
-        }
-      });
-    });
-    document.addEventListener('click', function (e) {
-      if (!e.target.closest('.card')) {
-        cards.forEach(function (c) { c.classList.remove('is-active'); });
-      }
-    });
+  if (!window.matchMedia("(hover: none)").matches) return;
+  var cards = document.querySelectorAll(".card[data-has-hover]");
+  if (!cards.length) return;
+
+  // Reveal on scroll: a card is "hovered" while it crosses the middle 30% of the viewport.
+  if ("IntersectionObserver" in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) { en.target.classList.toggle("is-active", en.isIntersecting); });
+    }, { rootMargin: "-35% 0px -35% 0px", threshold: 0 });
+    cards.forEach(function (c) { io.observe(c); });
   }
+
+  // Reveal on long press (450 ms without moving); the tap that follows the hold is swallowed.
+  var HOLD = 450, MOVE = 10;
+  cards.forEach(function (card) {
+    var timer = null, x = 0, y = 0, held = false;
+    function clear() { if (timer) { clearTimeout(timer); timer = null; } }
+    card.addEventListener("pointerdown", function (e) {
+      if (e.pointerType === "mouse") return;
+      x = e.clientX; y = e.clientY; held = false; clear();
+      timer = setTimeout(function () {
+        timer = null; held = true;
+        cards.forEach(function (c) { if (c !== card) c.classList.remove("is-active"); });
+        card.classList.add("is-active");
+      }, HOLD);
+    });
+    card.addEventListener("pointermove", function (e) {
+      if (timer && (Math.abs(e.clientX - x) > MOVE || Math.abs(e.clientY - y) > MOVE)) clear();
+    });
+    card.addEventListener("pointerup", clear);
+    card.addEventListener("pointercancel", clear);
+    card.addEventListener("click", function (e) { if (held) { e.preventDefault(); held = false; } });
+    card.addEventListener("contextmenu", function (e) { e.preventDefault(); });   // no link-preview popup on hold
+  });
 })();
 
 // Horizontal gallery rows: drag with the mouse, or use the wheel (eased so it glides).
@@ -88,4 +106,24 @@ document.querySelectorAll('.gallery-row--scroll').forEach(function (row) {
     });
   }, { rootMargin: '200px 0px' });
   videos.forEach(function (v) { io.observe(v); });
+})();
+
+// Light / dark toggle in the header. Without a saved choice the site follows the system
+// setting; a click flips it and remembers the choice (localStorage "theme").
+(function () {
+  var btn = document.querySelector('.theme-toggle');
+  if (!btn) return;
+  var root = document.documentElement;
+  function isDark() {
+    var t = root.getAttribute('data-theme');
+    return t ? t === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+  }
+  function label() { btn.setAttribute('aria-label', isDark() ? 'Switch to light mode' : 'Switch to dark mode'); }
+  btn.addEventListener('click', function () {
+    var next = isDark() ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('theme', next); } catch (e) {}
+    label();
+  });
+  label();
 })();
