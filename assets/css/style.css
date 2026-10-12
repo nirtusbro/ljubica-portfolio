@@ -357,6 +357,10 @@ h1, h2, h3 { margin: 0; font-weight: inherit; font-size: inherit; }
 
 /* ---------- Responsive ---------- */
 
+@media (min-width: 2200px) {
+  .work__grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }   /* 2K / 4K monitors */
+}
+
 @media (max-width: 1500px) {
   .work__grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .project__hero, .project__gallery { margin-left: 80px; margin-right: 80px; }
