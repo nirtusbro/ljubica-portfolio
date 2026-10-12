@@ -40,6 +40,7 @@ it with Experience on 2026-10-12).
   "slug": "velnea-hand-cream",
   "title": "Velnea Hand Cream",
   "tags": "Packaging Design, Art Direction",
+  "year": "2025",
   "thumb": "assets/img/card-velnea.jpg",
   "hover": { "src": "assets/img/hover/hover-velnea.svg" },
   "hero": { "type": "image", "src": "assets/img/velnea/hero.jpg" },
@@ -53,6 +54,7 @@ it with Experience on 2026-10-12).
 }
 ```
 
+- `year` is printed as "Year: …" directly under the "My role:" paragraph of `about`.
 - `hero.type` is `image` or `video`. Leave `src` empty to show the grey placeholder.
 - A gallery entry is one full-width item, or an array of items for a row. Items share the width,
   unless their `w` values add up to more than 1516 (the Figma gallery width): then the row
@@ -71,6 +73,6 @@ it with Experience on 2026-10-12).
 
 - All 170 project images are exported from Figma (JPG at 1.5x). Each block keeps its Figma node
   id in `data/projects.json` (`figmaNode`) in case one needs re-exporting at a higher resolution.
-- All 11 videos are in place as H.264 mp4 (1920px wide for full-width blocks, 1130px for half
+- All 9 videos are in place as H.264 mp4 (1920px wide for full-width blocks, 1130px for half
   blocks), silent and looping. Add `"controls": true` to a video item to show the player bar;
   only the Josh campaign film has it, as it keeps its soundtrack.

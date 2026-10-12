@@ -202,8 +202,12 @@ function projectPage(p, index) {
   for (let k = 1; others.length < 4 && k < projects.length; k++) {
     others.push(projects[(index + k) % projects.length]);
   }
+  // "Year: 2026" sits right under the "My role:" line (same paragraph, no gap), as in Figma.
   const about = (p.about && p.about.length)
-    ? p.about.map((t) => `        <p>${esc(t)}</p>`).join('\n')
+    ? p.about.map((t) => {
+        const year = p.year && /^My role:/i.test(t) ? `<br>Year: ${esc(p.year)}` : '';
+        return `        <p>${esc(t)}${year}</p>`;
+      }).join('\n')
     : '';
   const credits = (p.credits && p.credits.length)
     ? `        <p class="project__credits">${p.credits.map(esc).join('<br>')}</p>`
