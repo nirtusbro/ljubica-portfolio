@@ -406,7 +406,6 @@ h1, h2, h3 { margin: 0; font-weight: inherit; font-size: inherit; }
 }
 
 @media (max-width: 480px) {
-  .work__grid { grid-template-columns: 1fr; }
   .related__grid { grid-template-columns: 1fr; }
   .gallery-row { grid-template-columns: 1fr; }
   .gallery-row--mobile-scroll { grid-template-columns: none; }
