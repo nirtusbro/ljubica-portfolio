@@ -186,7 +186,8 @@ h1, h2, h3 { margin: 0; font-weight: inherit; font-size: inherit; }
 .card.is-active .card__thumb { visibility: hidden; transition-delay: .35s; }
 @media (hover: none) {
   /* a long press shows the hover artwork, so suppress the link callout / text selection */
-  .card { -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; }
+  .card { -webkit-touch-callout: none; -webkit-tap-highlight-color: transparent; }
+  .work__grid, .related__grid { -webkit-user-select: none; user-select: none; }
   .card__hover { transition-duration: .35s; }
 }
 

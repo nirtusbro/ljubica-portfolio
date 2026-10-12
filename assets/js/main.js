@@ -20,6 +20,7 @@
         timer = null; held = true;
         cards.forEach(function (c) { if (c !== card) c.classList.remove("is-active"); });
         card.classList.add("is-active");
+        if (window.getSelection) { try { window.getSelection().removeAllRanges(); } catch (err) {} }
       }, HOLD);
     });
     card.addEventListener("pointermove", function (e) {
@@ -29,6 +30,7 @@
     card.addEventListener("pointercancel", release);
     card.addEventListener("click", function (e) { if (held) { e.preventDefault(); held = false; } });
     card.addEventListener("contextmenu", function (e) { e.preventDefault(); });   // no link-preview popup on hold
+    card.addEventListener("selectstart", function (e) { e.preventDefault(); });  // no text selection on hold
   });
 })();
 
