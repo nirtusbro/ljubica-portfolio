@@ -144,6 +144,10 @@ h1, h2, h3 { margin: 0; font-weight: inherit; font-size: inherit; }
   overflow: hidden;
   background: var(--surface);
   isolation: isolate;
+  /* iOS Safari drops the rounded clipping while a child fades (the hover artwork); masking the
+     box keeps the corners during the transition. */
+  -webkit-mask-image: -webkit-radial-gradient(#fff, #000);
+  transform: translateZ(0);
 }
 
 .card__media > img,
