@@ -65,7 +65,7 @@ it with Experience on 2026-10-12).
 ## Notes
 
 - Light / dark mode: the header toggle sets `data-theme` on `<html>` and saves it in localStorage;
-  without a choice the site follows the phone/computer setting. Colours live in the `--bg`, `--fg`,
+  the site always starts light; dark is only shown after the visitor clicks the toggle. Colours live in the `--bg`, `--fg`,
   `--surface`, `--related-bg`, `--footer-bg/fg` and `--muted` variables at the top of `style.css`.
   The logo and LinkedIn icon use `currentColor` so they follow the theme.
 

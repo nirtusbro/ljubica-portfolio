@@ -25,13 +25,9 @@
   --radius: 20px;
 }
 
-/* Dark mode: follows the system setting, or the choice made with the header toggle. */
+/* Dark mode: only when chosen with the header toggle (the site always starts light). */
 html[data-theme="dark"] { color-scheme: dark;
   --bg: #000; --fg: #fff; --surface: #161616; --related-bg: #0d0d0d; --footer-bg: #fff; --footer-fg: #000; --muted: #a3a3a3; }
-@media (prefers-color-scheme: dark) {
-  html:not([data-theme="light"]) { color-scheme: dark;
-    --bg: #000; --fg: #fff; --surface: #161616; --related-bg: #0d0d0d; --footer-bg: #fff; --footer-fg: #000; --muted: #a3a3a3; }
-}
 
 *, *::before, *::after { box-sizing: border-box; }
 

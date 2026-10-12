@@ -108,16 +108,13 @@ document.querySelectorAll('.gallery-row--scroll').forEach(function (row) {
   videos.forEach(function (v) { io.observe(v); });
 })();
 
-// Light / dark toggle in the header. Without a saved choice the site follows the system
-// setting; a click flips it and remembers the choice (localStorage "theme").
+// Light / dark toggle in the header. The site starts light; a click flips the theme and
+// remembers the choice (localStorage "theme").
 (function () {
   var btn = document.querySelector('.theme-toggle');
   if (!btn) return;
   var root = document.documentElement;
-  function isDark() {
-    var t = root.getAttribute('data-theme');
-    return t ? t === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
-  }
+  function isDark() { return root.getAttribute('data-theme') === 'dark'; }
   function label() { btn.setAttribute('aria-label', isDark() ? 'Switch to light mode' : 'Switch to dark mode'); }
   btn.addEventListener('click', function () {
     var next = isDark() ? 'light' : 'dark';
