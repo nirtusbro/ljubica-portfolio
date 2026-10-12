@@ -1,25 +1,18 @@
 // Small enhancements; the site works without JavaScript.
-// On touch screens there is no hover, so the hover artwork on a card is shown
-//  - while scrolling, for the card(s) passing through the middle of the screen, and
-//  - on a long press (hold without lifting); a plain tap opens the project as usual.
+// On touch screens there is no hover, so the hover artwork on a card is shown while the
+// finger is held on it (long press); it hides on release. A plain tap opens the project.
 (function () {
   if (!window.matchMedia("(hover: none)").matches) return;
   var cards = document.querySelectorAll(".card[data-has-hover]");
   if (!cards.length) return;
 
-  // Reveal on scroll: a card is "hovered" while it crosses the middle 30% of the viewport.
-  if ("IntersectionObserver" in window) {
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (en) { en.target.classList.toggle("is-active", en.isIntersecting); });
-    }, { rootMargin: "-35% 0px -35% 0px", threshold: 0 });
-    cards.forEach(function (c) { io.observe(c); });
-  }
-
-  // Reveal on long press (450 ms without moving); the tap that follows the hold is swallowed.
+  // Hold for 450 ms without moving to reveal; lifting the finger hides it again and the
+  // click that follows the hold is swallowed.
   var HOLD = 450, MOVE = 10;
   cards.forEach(function (card) {
     var timer = null, x = 0, y = 0, held = false;
     function clear() { if (timer) { clearTimeout(timer); timer = null; } }
+    function release() { clear(); if (held) card.classList.remove("is-active"); }
     card.addEventListener("pointerdown", function (e) {
       if (e.pointerType === "mouse") return;
       x = e.clientX; y = e.clientY; held = false; clear();
@@ -32,8 +25,8 @@
     card.addEventListener("pointermove", function (e) {
       if (timer && (Math.abs(e.clientX - x) > MOVE || Math.abs(e.clientY - y) > MOVE)) clear();
     });
-    card.addEventListener("pointerup", clear);
-    card.addEventListener("pointercancel", clear);
+    card.addEventListener("pointerup", release);
+    card.addEventListener("pointercancel", release);
     card.addEventListener("click", function (e) { if (held) { e.preventDefault(); held = false; } });
     card.addEventListener("contextmenu", function (e) { e.preventDefault(); });   // no link-preview popup on hold
   });

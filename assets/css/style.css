@@ -353,7 +353,7 @@ h1, h2, h3 { margin: 0; font-weight: inherit; font-size: inherit; }
 }
 
 @media (max-width: 800px) {
-  :root { --header-h: 72px; --gutter: 16px; --radius: 15px; } /* smaller corners on phones (20px on desktop) */
+  :root { --header-h: 72px; --gutter: 16px; }
   .site-header__logo { min-width: 0; flex: 0 1 auto; margin-right: 12px; }
   .site-header__logo svg { width: 100%; max-width: 156px; height: auto; }  /* 22px tall at full size, shrinks on narrow phones */
   .site-header__right { flex-shrink: 0; gap: 10px; }
