@@ -27,7 +27,7 @@
 
 /* Dark mode: only when chosen with the header toggle (the site always starts light). */
 html[data-theme="dark"] { color-scheme: dark;
-  --bg: #000; --fg: #fff; --surface: #161616; --related-bg: #0d0d0d; --footer-bg: #fff; --footer-fg: #000; --muted: #a3a3a3; }
+  --bg: #000; --fg: #fff; --surface: #161616; --related-bg: #0d0d0d; --footer-bg: #000; --footer-fg: #fff; --muted: #a3a3a3; }
 
 *, *::before, *::after { box-sizing: border-box; }
 
@@ -109,7 +109,6 @@ h1, h2, h3 { margin: 0; font-weight: inherit; font-size: inherit; }
   max-width: 737px;
   font-size: 13.9px;
   line-height: 24.3px;
-  text-transform: uppercase;
 }
 
 .intro--center { padding-top: 35px; padding-bottom: 63px; display: flex; flex-direction: column; align-items: center; }
