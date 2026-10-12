@@ -173,6 +173,14 @@ h1, h2, h3 { margin: 0; font-weight: inherit; font-size: inherit; }
   .card:focus-visible .card__hover { opacity: 1; }
 }
 .card.is-active .card__hover { opacity: 1; }
+/* Once the hover artwork is fully shown, hide the thumbnail under it: otherwise its light edge
+   can bleed through the anti-aliased rounded corner as a hairline (visible in dark mode). */
+.card__thumb { transition: visibility 0s; }
+@media (hover: hover) {
+  .card:hover .card__thumb,
+  .card:focus-visible .card__thumb { visibility: hidden; transition-delay: .25s; }
+}
+.card.is-active .card__thumb { visibility: hidden; transition-delay: .35s; }
 @media (hover: none) {
   /* a long press shows the hover artwork, so suppress the link callout / text selection */
   .card { -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; }

@@ -1065,20 +1065,23 @@
      "h": 864
     }
    ],
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/fun-and-fit-plum-pleasure/03.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/fun-and-fit-plum-pleasure/04.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
+   {
+    "mobileScroll": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/img/projects/fun-and-fit-plum-pleasure/03.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/fun-and-fit-plum-pleasure/04.jpg",
+      "w": 753,
+      "h": 864
+     }
+    ]
+   },
    {
     "type": "image",
     "src": "assets/img/projects/fun-and-fit-plum-pleasure/05.jpg",
@@ -1119,34 +1122,36 @@
      "h": 864
     }
    ],
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/fun-and-fit-plum-pleasure/11.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/fun-and-fit-plum-pleasure/12.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/fun-and-fit-plum-pleasure/13.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/fun-and-fit-plum-pleasure/14.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ]
+   {
+    "mobileScroll": true,
+    "cols": 2,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/img/projects/fun-and-fit-plum-pleasure/11.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/fun-and-fit-plum-pleasure/12.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/fun-and-fit-plum-pleasure/13.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/fun-and-fit-plum-pleasure/14.jpg",
+      "w": 753,
+      "h": 864
+     }
+    ]
+   }
   ]
  },
  {
