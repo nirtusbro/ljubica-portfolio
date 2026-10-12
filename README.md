@@ -13,7 +13,7 @@ assets/css/style.css  all styling
 assets/js/main.js     card hover on touch, horizontal rows, video play/pause, light/dark toggle
 assets/img/           thumbnails, hover artwork, portrait, project images
 assets/video/         project videos (mp4) with poster frames (jpg)
-assets/svg/           logo and LinkedIn icon
+assets/svg/           logo (logo-short.svg = "Ljubica" only, shown on phones) and LinkedIn icon
 favicon.ico, favicon-*.png, apple-touch-icon.png,
 android-chrome-*.png, site.webmanifest   favicon set (pink "Љ" circle)
 data/site.json        name, intro text, email, LinkedIn URL, nav, experience

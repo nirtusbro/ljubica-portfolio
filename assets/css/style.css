@@ -71,6 +71,7 @@ h1, h2, h3 { margin: 0; font-weight: inherit; font-size: inherit; }
 }
 
 .site-header__logo svg { height: 31.762px; width: auto; }
+.site-header__logo .logo--short { display: none; }   /* "Ljubica" only, used on phones */
 
 .site-header__right { display: flex; align-items: center; gap: 78.9px; }
 .site-nav ul { display: flex; gap: 78.9px; }
@@ -362,8 +363,10 @@ h1, h2, h3 { margin: 0; font-weight: inherit; font-size: inherit; }
 
 @media (max-width: 800px) {
   :root { --header-h: 72px; --gutter: 16px; }
-  .site-header__logo { min-width: 0; flex: 0 1 auto; margin-right: 12px; }
-  .site-header__logo svg { width: 100%; max-width: 156px; height: auto; }  /* 22px tall at full size, shrinks on narrow phones */
+  .site-header__logo { margin-right: 12px; }
+  .site-header__logo svg { height: 22px; }
+  .site-header__logo .logo--full { display: none; }
+  .site-header__logo .logo--short { display: block; }
   .site-header__right { flex-shrink: 0; gap: 10px; }
   .site-nav ul { gap: 14px; }
   .theme-toggle { width: 28px; height: 28px; }

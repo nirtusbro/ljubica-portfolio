@@ -9,7 +9,9 @@ const path = require('path');
 const ROOT = __dirname;
 const site = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/site.json'), 'utf8'));
 const projects = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/projects.json'), 'utf8'));
-const logoSvg = fs.readFileSync(path.join(ROOT, 'assets/svg/logo.svg'), 'utf8').trim();
+const logoSvg = fs.readFileSync(path.join(ROOT, 'assets/svg/logo.svg'), 'utf8').trim().replace('<svg ', '<svg class="logo logo--full" ');
+// "Ljubica" only, shown instead of the full logo on phones (CSS swaps them at 800px).
+const logoShortSvg = fs.readFileSync(path.join(ROOT, 'assets/svg/logo-short.svg'), 'utf8').trim().replace('<svg ', '<svg class="logo logo--short" ');
 const linkedinSvg = fs.readFileSync(path.join(ROOT, 'assets/svg/linkedin.svg'), 'utf8').trim();
 
 const esc = (s) => String(s)
@@ -26,6 +28,7 @@ function header(rel, current) {
   return `  <header class="site-header">
     <a class="site-header__logo" href="${rel}index.html" aria-label="${esc(site.name)} — home">
       ${logoSvg}
+      ${logoShortSvg}
     </a>
     <div class="site-header__right">
       <nav class="site-nav" aria-label="Main">
