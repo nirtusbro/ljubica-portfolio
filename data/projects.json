@@ -24,64 +24,299 @@
   ],
   "credits": [],
   "gallery": [
-   {
-    "type": "image",
-    "src": "assets/img/projects/miro-personalised-stickers/01.jpg",
-    "w": 1516,
-    "h": 604
-   },
-   {
-    "type": "image",
-    "src": "assets/img/projects/miro-personalised-stickers/02.jpg",
-    "w": 1516,
-    "h": 913
-   },
-   {
-    "type": "image",
-    "src": "assets/img/projects/miro-personalised-stickers/03.jpg",
-    "w": 1516,
-    "h": 913
-   },
-   {
-    "type": "image",
-    "src": "assets/img/projects/miro-personalised-stickers/04.jpg",
-    "w": 1516,
-    "h": 913
-   },
+   [
+    {
+     "type": "video",
+     "w": 753,
+     "h": 864,
+     "src": "assets/video/miro-personalised-stickers/miro-stickers-1.mp4",
+     "poster": "assets/video/miro-personalised-stickers/miro-stickers-1.jpg"
+    },
+    {
+     "type": "video",
+     "w": 753,
+     "h": 864,
+     "src": "assets/video/miro-personalised-stickers/miro-stickers-2.mp4",
+     "poster": "assets/video/miro-personalised-stickers/miro-stickers-2.jpg"
+    }
+   ],
    [
     {
      "type": "image",
-     "src": "assets/img/projects/miro-personalised-stickers/05.jpg",
+     "src": "assets/img/projects/miro-personalised-stickers/03.jpg",
      "w": 753,
      "h": 864
     },
     {
      "type": "image",
-     "src": "assets/img/projects/miro-personalised-stickers/06.jpg",
+     "src": "assets/img/projects/miro-personalised-stickers/04.jpg",
      "w": 753,
      "h": 864
     }
    ],
    {
     "type": "image",
-    "src": "assets/img/projects/miro-personalised-stickers/07.jpg",
+    "src": "assets/img/projects/miro-personalised-stickers/05.jpg",
     "w": 1516,
     "h": 913
    },
+   {
+    "mobileScroll": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/img/projects/miro-personalised-stickers/06.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/miro-personalised-stickers/07.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/miro-personalised-stickers/08.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/miro-personalised-stickers/09.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/miro-personalised-stickers/10.jpg",
+      "w": 753,
+      "h": 864
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "velnea-hand-cream",
+  "title": "Velnea Hand Cream",
+  "tags": "Packaging Design, Art Direction",
+  "year": "2025",
+  "thumb": "assets/img/card-velnea.jpg",
+  "hover": {
+   "src": "assets/img/hover/hover-velnea.svg"
+  },
+  "hero": {
+   "type": "image",
+   "src": "assets/img/projects/velnea-hand-cream/hero.jpg",
+   "w": 1516,
+   "h": 953
+  },
+  "about": [
+   "A complete packaging redesign for Velnea's hand cream collection, introducing a fresh and playful visual identity across the product range. The new design combines vibrant colours with small, expressive illustrations inspired by each fragrance. Created with a younger audience in mind, the packaging brings a more contemporary and approachable personality to the brand while maintaining consistency across different variants and two product sizes.",
+   "My role: Packaging Design, Illustration Art Direction, Product Range Design",
+   "* This project was developed in collaboration with another designer."
+  ],
+  "credits": [],
+  "gallery": [
    [
     {
      "type": "image",
-     "src": "assets/img/projects/miro-personalised-stickers/08.jpg",
+     "src": "assets/img/projects/velnea-hand-cream/01.jpg",
      "w": 753,
      "h": 864
     },
     {
      "type": "image",
-     "src": "assets/img/projects/miro-personalised-stickers/09.jpg",
+     "src": "assets/img/projects/velnea-hand-cream/02.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/03.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/04.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/05.jpg",
      "w": 753,
      "h": 864
     }
-   ]
+   ],
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/06.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/07.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/08.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/09.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "mobileScroll": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/img/projects/velnea-hand-cream/10.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/velnea-hand-cream/11.jpg",
+      "w": 1516,
+      "h": 865
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/velnea-hand-cream/12.jpg",
+      "w": 1516,
+      "h": 865
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/velnea-hand-cream/13.jpg",
+      "w": 753,
+      "h": 864
+     }
+    ]
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/14.jpg",
+     "w": 1508,
+     "h": 665
+    }
+   ],
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/15.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/16.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/17.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/18.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/19.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/20.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/21.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/22.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/23.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/24.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/velnea-hand-cream/25.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "mobileScroll": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/img/projects/velnea-hand-cream/26.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/velnea-hand-cream/27.jpg",
+      "w": 1516,
+      "h": 865
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/velnea-hand-cream/28.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/velnea-hand-cream/29.jpg",
+      "w": 1516,
+      "h": 865
+     }
+    ]
+   }
   ]
  },
  {
@@ -151,6 +386,160 @@
     "src": "assets/img/projects/get-great-done-miro-tagline/07.jpg",
     "w": 1516,
     "h": 913
+   },
+   {
+    "type": "video",
+    "w": 1516,
+    "h": 913,
+    "src": "assets/video/get-great-done-miro-tagline/ggd-animation.mp4",
+    "poster": "assets/video/get-great-done-miro-tagline/ggd-animation.jpg"
+   }
+  ]
+ },
+ {
+  "slug": "lepo-event-studio",
+  "title": "Lepo Event Studio",
+  "tags": "Brand Identity, Brand Guidelines",
+  "year": "2026",
+  "thumb": "assets/img/card-lepo.jpg",
+  "hover": {
+   "src": "assets/img/hover/hover-lepo.svg"
+  },
+  "hero": {
+   "type": "image",
+   "src": "assets/img/projects/lepo-event-studio/hero.jpg",
+   "w": 1516,
+   "h": 953
+  },
+  "about": [
+   "LEPO is an event design studio specialising in thoughtfully curated celebrations, with a particular focus on weddings. The visual identity was developed around the idea of finding beauty in every detail. Elegant typography, organic shapes and delicate decorative elements reflect the studio's refined and personal approach to event styling. At the heart of the identity is a custom typographic logo inspired by intertwined ribbons and floral ornaments. A subtle connection between the letters \"p\" and \"o\" forms two interlocking wedding rings, introducing a meaningful detail into the design. The project includes a complete visual identity system, from logo development and colour palette to typography, brand guidelines and applications.",
+   "My role: Brand Identity, Logo Design, Brand Guidelines"
+  ],
+  "credits": [],
+  "gallery": [
+   {
+    "type": "image",
+    "src": "assets/img/projects/lepo-event-studio/01.jpg",
+    "w": 1516,
+    "h": 608
+   },
+   {
+    "type": "video",
+    "w": 1516,
+    "h": 913,
+    "src": "assets/video/lepo-event-studio/lepo-1.mp4",
+    "poster": "assets/video/lepo-event-studio/lepo-1.jpg"
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/lepo-event-studio/03.jpg",
+    "w": 1516,
+    "h": 445
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/lepo-event-studio/04.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/lepo-event-studio/05.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/lepo-event-studio/06.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/lepo-event-studio/07.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/lepo-event-studio/08.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/lepo-event-studio/09.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/lepo-event-studio/10.jpg",
+    "w": 1516,
+    "h": 352
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/lepo-event-studio/11.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/lepo-event-studio/12.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/lepo-event-studio/13.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/lepo-event-studio/14.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "video",
+     "w": 753,
+     "h": 864,
+     "src": "assets/video/lepo-event-studio/lepo-2.mp4",
+     "poster": "assets/video/lepo-event-studio/lepo-2.jpg"
+    }
+   ],
+   {
+    "mobileScroll": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/img/projects/lepo-event-studio/16.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/lepo-event-studio/17.jpg",
+      "w": 753,
+      "h": 864
+     }
+    ]
+   },
+   {
+    "type": "video",
+    "w": 1516,
+    "h": 913,
+    "src": "assets/video/lepo-event-studio/lepo-3.mp4",
+    "poster": "assets/video/lepo-event-studio/lepo-3.jpg"
    }
   ]
  },
@@ -260,20 +649,23 @@
     "w": 1516,
     "h": 913
    },
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/fun-and-fit-granola/13.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/fun-and-fit-granola/14.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
+   {
+    "mobileScroll": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/img/projects/fun-and-fit-granola/13.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/fun-and-fit-granola/14.jpg",
+      "w": 753,
+      "h": 864
+     }
+    ]
+   },
    {
     "mobileScroll": true,
     "cols": 2,
@@ -317,20 +709,23 @@
     "w": 1516,
     "h": 913
    },
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/fun-and-fit-granola/21.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/fun-and-fit-granola/22.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
+   {
+    "mobileScroll": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/img/projects/fun-and-fit-granola/21.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/fun-and-fit-granola/22.jpg",
+      "w": 753,
+      "h": 864
+     }
+    ]
+   },
    {
     "type": "image",
     "src": "assets/img/projects/fun-and-fit-granola/23.jpg",
@@ -340,60 +735,50 @@
   ]
  },
  {
-  "slug": "lepo-event-studio",
-  "title": "Lepo Event Studio",
+  "slug": "casetta-pizzeria",
+  "title": "Casetta Pizzeria",
   "tags": "Brand Identity, Brand Guidelines",
-  "year": "2026",
-  "thumb": "assets/img/card-lepo.jpg",
+  "year": "2022",
+  "thumbComposed": {
+   "background": "#c4c4c4",
+   "src": "assets/img/card-casetta-photo.jpg",
+   "style": "width:170.16%;height:102.21%;left:50.11%;top:49.98%;transform:translate(-50%,-50%)"
+  },
   "hover": {
-   "src": "assets/img/hover/hover-lepo.svg"
+   "src": "assets/img/hover/hover-casetta.svg"
   },
   "hero": {
    "type": "image",
-   "src": "assets/img/projects/lepo-event-studio/hero.jpg",
+   "src": "assets/img/projects/casetta-pizzeria/hero.jpg",
    "w": 1516,
    "h": 953
   },
   "about": [
-   "LEPO is an event design studio specialising in thoughtfully curated celebrations, with a particular focus on weddings. The visual identity was developed around the idea of finding beauty in every detail. Elegant typography, organic shapes and delicate decorative elements reflect the studio's refined and personal approach to event styling. At the heart of the identity is a custom typographic logo inspired by intertwined ribbons and floral ornaments. A subtle connection between the letters \"p\" and \"o\" forms two interlocking wedding rings, introducing a meaningful detail into the design. The project includes a complete visual identity system, from logo development and colour palette to typography, brand guidelines and applications.",
+   "A visual identity for Casetta Pizzeria, inspired by the decorative ceramic tiles traditionally found across Spain and Portugal. The logo combines the geometric character of Mediterranean tile patterns with stylised pizza slices, creating a distinctive symbol that connects the restaurant's identity with its culinary offering. The decorative motif forms the foundation of the wider brand system, extending across packaging and other applications to create a warm, recognisable and cohesive visual identity.",
    "My role: Brand Identity, Logo Design, Brand Guidelines"
   ],
   "credits": [],
   "gallery": [
    {
-    "type": "image",
-    "src": "assets/img/projects/lepo-event-studio/01.jpg",
-    "w": 1516,
-    "h": 608
-   },
-   {
-    "type": "video",
-    "w": 1516,
-    "h": 913,
-    "src": "assets/video/lepo-event-studio/lepo-1.mp4",
-    "poster": "assets/video/lepo-event-studio/lepo-1.jpg"
-   },
-   {
-    "type": "image",
-    "src": "assets/img/projects/lepo-event-studio/03.jpg",
-    "w": 1516,
-    "h": 445
-   },
-   {
-    "type": "image",
-    "src": "assets/img/projects/lepo-event-studio/04.jpg",
-    "w": 1516,
-    "h": 913
+    "mobileScroll": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/img/projects/casetta-pizzeria/01.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/casetta-pizzeria/02.jpg",
+      "w": 753,
+      "h": 864
+     }
+    ]
    },
    {
     "type": "image",
-    "src": "assets/img/projects/lepo-event-studio/05.jpg",
-    "w": 1516,
-    "h": 913
-   },
-   {
-    "type": "image",
-    "src": "assets/img/projects/lepo-event-studio/06.jpg",
+    "src": "assets/img/projects/casetta-pizzeria/03.jpg",
     "w": 1516,
     "h": 913
    },
@@ -402,253 +787,107 @@
     "items": [
      {
       "type": "image",
-      "src": "assets/img/projects/lepo-event-studio/07.jpg",
+      "src": "assets/img/projects/casetta-pizzeria/04.jpg",
       "w": 753,
       "h": 864
      },
      {
       "type": "image",
-      "src": "assets/img/projects/lepo-event-studio/08.jpg",
+      "src": "assets/img/projects/casetta-pizzeria/05.jpg",
       "w": 753,
       "h": 864
      }
     ]
-   },
-   {
-    "type": "image",
-    "src": "assets/img/projects/lepo-event-studio/09.jpg",
-    "w": 1516,
-    "h": 352
-   },
-   {
-    "mobileScroll": true,
-    "items": [
-     {
-      "type": "image",
-      "src": "assets/img/projects/lepo-event-studio/10.jpg",
-      "w": 753,
-      "h": 864
-     },
-     {
-      "type": "image",
-      "src": "assets/img/projects/lepo-event-studio/11.jpg",
-      "w": 753,
-      "h": 864
-     }
-    ]
-   },
-   {
-    "type": "image",
-    "src": "assets/img/projects/lepo-event-studio/12.jpg",
-    "w": 1516,
-    "h": 913
    },
    [
-    {
-     "type": "image",
-     "src": "assets/img/projects/lepo-event-studio/13.jpg",
-     "w": 753,
-     "h": 864
-    },
     {
      "type": "video",
      "w": 753,
      "h": 864,
-     "src": "assets/video/lepo-event-studio/lepo-2.mp4",
-     "poster": "assets/video/lepo-event-studio/lepo-2.jpg"
+     "src": "assets/video/casetta-pizzeria/casetta-3.mp4",
+     "poster": "assets/video/casetta-pizzeria/casetta-3.jpg"
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/casetta-pizzeria/07.jpg",
+     "w": 753,
+     "h": 864
     }
    ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/casetta-pizzeria/08.jpg",
+    "w": 1516,
+    "h": 913
+   },
    [
     {
      "type": "image",
-     "src": "assets/img/projects/lepo-event-studio/15.jpg",
+     "src": "assets/img/projects/casetta-pizzeria/09.jpg",
      "w": 753,
      "h": 864
     },
     {
      "type": "image",
-     "src": "assets/img/projects/lepo-event-studio/16.jpg",
+     "src": "assets/img/projects/casetta-pizzeria/10.jpg",
      "w": 753,
      "h": 864
     }
    ],
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/lepo-event-studio/17.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/lepo-event-studio/18.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/casetta-pizzeria/11.jpg",
+    "w": 1516,
+    "h": 913
+   },
    {
     "mobileScroll": true,
     "items": [
      {
       "type": "image",
-      "src": "assets/img/projects/lepo-event-studio/19.jpg",
+      "src": "assets/img/projects/casetta-pizzeria/12.jpg",
       "w": 753,
-      "h": 864
+      "h": 864,
+      "alt": "Casetta tile pattern"
      },
      {
       "type": "image",
-      "src": "assets/img/projects/lepo-event-studio/20.jpg",
+      "src": "assets/img/projects/casetta-pizzeria/13.jpg",
       "w": 753,
-      "h": 864
+      "h": 864,
+      "alt": "Margherita pizza close-up"
      }
     ]
    },
    {
     "type": "image",
-    "src": "assets/img/projects/lepo-event-studio/21.jpg",
-    "w": 1516,
-    "h": 913
-   }
-  ]
- },
- {
-  "slug": "alle-marie",
-  "title": "Alle ’ Marie",
-  "tags": "Brand Identity, Brand Guidelines",
-  "year": "2021",
-  "thumb": "assets/img/card-alle-marie.jpg",
-  "hover": {
-   "src": "assets/img/hover/hover-alle-marie.svg"
-  },
-  "hero": {
-   "type": "image",
-   "src": "assets/img/projects/alle-marie/hero.jpg",
-   "w": 1516,
-   "h": 953
-  },
-  "about": [
-   "A minimalist visual identity for Alle'Marie, a fashion studio with a focus on simplicity and understated elegance. The identity is built around a distinctive typographic logo, where carefully considered letterforms create a refined and timeless visual expression. The project includes logo development, typography, colour palette and a complete set of brand guidelines, establishing a consistent visual language across the studio's brand applications.",
-   "My role: Brand Identity, Logo Design, Brand Guidelines"
-  ],
-  "credits": [],
-  "gallery": [
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/alle-marie/01.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/alle-marie/02.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/alle-marie/03.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/alle-marie/04.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
-   {
-    "type": "image",
-    "src": "assets/img/projects/alle-marie/05.jpg",
+    "src": "assets/img/projects/casetta-pizzeria/14.jpg",
     "w": 1516,
     "h": 913
    },
    [
     {
      "type": "image",
-     "src": "assets/img/projects/alle-marie/06.jpg",
+     "src": "assets/img/projects/casetta-pizzeria/15.jpg",
      "w": 753,
      "h": 864
     },
     {
      "type": "image",
-     "src": "assets/img/projects/alle-marie/07.jpg",
+     "src": "assets/img/projects/casetta-pizzeria/16.jpg",
      "w": 753,
      "h": 864
     }
    ],
    {
     "type": "image",
-    "src": "assets/img/projects/alle-marie/08.jpg",
-    "w": 1516,
-    "h": 913
-   },
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/alle-marie/09.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/alle-marie/10.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
-   {
-    "type": "image",
-    "src": "assets/img/projects/alle-marie/11.jpg",
+    "src": "assets/img/projects/casetta-pizzeria/17.jpg",
     "w": 1516,
     "h": 913
    },
    {
     "type": "image",
-    "src": "assets/img/projects/alle-marie/12.jpg",
-    "w": 1516,
-    "h": 913
-   },
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/alle-marie/13.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/alle-marie/14.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
-   {
-    "type": "image",
-    "src": "assets/img/projects/alle-marie/15.jpg",
-    "w": 1516,
-    "h": 913
-   },
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/alle-marie/16.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/alle-marie/17.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
-   {
-    "type": "image",
-    "src": "assets/img/projects/alle-marie/18.jpg",
+    "src": "assets/img/projects/casetta-pizzeria/18.jpg",
     "w": 1516,
     "h": 913
    }
@@ -729,165 +968,6 @@
   ]
  },
  {
-  "slug": "velnea-hand-cream",
-  "title": "Velnea Hand Cream",
-  "tags": "Packaging Design, Art Direction",
-  "year": "2025",
-  "thumb": "assets/img/card-velnea.jpg",
-  "hover": {
-   "src": "assets/img/hover/hover-velnea.svg"
-  },
-  "hero": {
-   "type": "image",
-   "src": "assets/img/projects/velnea-hand-cream/hero.jpg",
-   "w": 1516,
-   "h": 953
-  },
-  "about": [
-   "A complete packaging redesign for Velnea's hand cream collection, introducing a fresh and playful visual identity across the product range. The new design combines vibrant colours with small, expressive illustrations inspired by each fragrance. Created with a younger audience in mind, the packaging brings a more contemporary and approachable personality to the brand while maintaining consistency across different variants and two product sizes.",
-   "My role: Packaging Design, Illustration Art Direction, Product Range Design",
-   "* This project was developed in collaboration with another designer."
-  ],
-  "credits": [],
-  "gallery": [
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/velnea-hand-cream/01.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/velnea-hand-cream/02.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/velnea-hand-cream/03.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/velnea-hand-cream/04.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/velnea-hand-cream/05.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
-   {
-    "type": "image",
-    "src": "assets/img/projects/velnea-hand-cream/06.jpg",
-    "w": 1516,
-    "h": 913
-   },
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/velnea-hand-cream/07.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/velnea-hand-cream/08.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
-   {
-    "type": "image",
-    "src": "assets/img/projects/velnea-hand-cream/09.jpg",
-    "w": 1516,
-    "h": 913
-   },
-   {
-    "type": "video",
-    "w": 1516,
-    "h": 913,
-    "src": "assets/video/velnea-hand-cream/velnea.mp4",
-    "poster": "assets/video/velnea-hand-cream/velnea.jpg"
-   },
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/velnea-hand-cream/11.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/velnea-hand-cream/12.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/velnea-hand-cream/13.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/velnea-hand-cream/14.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/velnea-hand-cream/15.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/velnea-hand-cream/16.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/velnea-hand-cream/17.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
-   {
-    "type": "image",
-    "src": "assets/img/projects/velnea-hand-cream/18.jpg",
-    "w": 1516,
-    "h": 913
-   },
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/velnea-hand-cream/19.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/velnea-hand-cream/20.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
-   {
-    "type": "image",
-    "src": "assets/img/projects/velnea-hand-cream/21.jpg",
-    "w": 1516,
-    "h": 913
-   }
-  ]
- },
- {
   "slug": "rozeta-resort-and-residence",
   "title": "Rozeta Resort & Residence",
   "tags": "Brand Identity, Brand Guidelines",
@@ -960,70 +1040,102 @@
     "w": 1516,
     "h": 913
    },
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/rozeta-resort-and-residence/09.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/rozeta-resort-and-residence/10.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
+   {
+    "mobileScroll": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/img/projects/rozeta-resort-and-residence/09.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/rozeta-resort-and-residence/10.jpg",
+      "w": 753,
+      "h": 864
+     }
+    ]
+   },
    {
     "type": "image",
     "src": "assets/img/projects/rozeta-resort-and-residence/11.jpg",
     "w": 1516,
     "h": 913
    },
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/rozeta-resort-and-residence/12.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/rozeta-resort-and-residence/13.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/rozeta-resort-and-residence/14.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/rozeta-resort-and-residence/15.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
+   {
+    "mobileScroll": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/img/projects/rozeta-resort-and-residence/12.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/rozeta-resort-and-residence/13.jpg",
+      "w": 753,
+      "h": 864
+     }
+    ]
+   },
    {
     "type": "image",
-    "src": "assets/img/projects/rozeta-resort-and-residence/16.jpg",
+    "src": "assets/img/projects/rozeta-resort-and-residence/14.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   {
+    "mobileScroll": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/img/projects/rozeta-resort-and-residence/15.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/rozeta-resort-and-residence/16.jpg",
+      "w": 753,
+      "h": 864
+     }
+    ]
+   },
+   {
+    "mobileScroll": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/img/projects/rozeta-resort-and-residence/17.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/rozeta-resort-and-residence/18.jpg",
+      "w": 753,
+      "h": 864
+     }
+    ]
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/rozeta-resort-and-residence/19.jpg",
     "w": 1516,
     "h": 913
    },
    [
     {
      "type": "image",
-     "src": "assets/img/projects/rozeta-resort-and-residence/17.jpg",
+     "src": "assets/img/projects/rozeta-resort-and-residence/20.jpg",
      "w": 753,
      "h": 864
     },
     {
      "type": "image",
-     "src": "assets/img/projects/rozeta-resort-and-residence/18.jpg",
+     "src": "assets/img/projects/rozeta-resort-and-residence/21.jpg",
      "w": 753,
      "h": 864
     }
@@ -1184,55 +1296,97 @@
     "poster": "assets/video/josh-campaign/josh.jpg",
     "controls": true
    },
+   {
+    "type": "image",
+    "src": "assets/img/projects/josh-campaign/02.jpg",
+    "w": 1516,
+    "h": 913
+   },
    [
     {
      "type": "image",
-     "src": "assets/img/projects/josh-campaign/02.jpg",
+     "src": "assets/img/projects/josh-campaign/03.jpg",
      "w": 753,
      "h": 864
     },
     {
      "type": "image",
-     "src": "assets/img/projects/josh-campaign/03.jpg",
+     "src": "assets/img/projects/josh-campaign/04.jpg",
      "w": 753,
      "h": 864
     }
    ],
    {
     "type": "image",
-    "src": "assets/img/projects/josh-campaign/04.jpg",
+    "src": "assets/img/projects/josh-campaign/05.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/josh-campaign/06.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/josh-campaign/07.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/josh-campaign/08.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/josh-campaign/09.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/josh-campaign/10.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/josh-campaign/11.jpg",
     "w": 1516,
     "h": 913
    },
    {
     "type": "image",
-    "src": "assets/img/projects/josh-campaign/05.jpg",
+    "src": "assets/img/projects/josh-campaign/12.jpg",
     "w": 1516,
     "h": 913
    }
   ]
  },
  {
-  "slug": "casetta-pizzeria",
-  "title": "Casetta Pizzeria",
+  "slug": "alle-marie",
+  "title": "Alle ’ Marie",
   "tags": "Brand Identity, Brand Guidelines",
-  "year": "2022",
-  "thumbComposed": {
-   "background": "#c4c4c4",
-   "src": "assets/img/card-casetta-photo.jpg",
-   "style": "width:170.16%;height:102.21%;left:50.11%;top:49.98%;transform:translate(-50%,-50%)"
-  },
+  "year": "2021",
+  "thumb": "assets/img/card-alle-marie.jpg",
   "hover": {
-   "src": "assets/img/hover/hover-casetta.svg"
+   "src": "assets/img/hover/hover-alle-marie.svg"
   },
   "hero": {
    "type": "image",
-   "src": "assets/img/projects/casetta-pizzeria/hero.jpg",
+   "src": "assets/img/projects/alle-marie/hero.jpg",
    "w": 1516,
    "h": 953
   },
   "about": [
-   "A visual identity for Casetta Pizzeria, inspired by the decorative ceramic tiles traditionally found across Spain and Portugal. The logo combines the geometric character of Mediterranean tile patterns with stylised pizza slices, creating a distinctive symbol that connects the restaurant's identity with its culinary offering. The decorative motif forms the foundation of the wider brand system, extending across packaging and other applications to create a warm, recognisable and cohesive visual identity.",
+   "A minimalist visual identity for Alle'Marie, a fashion studio with a focus on simplicity and understated elegance. The identity is built around a distinctive typographic logo, where carefully considered letterforms create a refined and timeless visual expression. The project includes logo development, typography, colour palette and a complete set of brand guidelines, establishing a consistent visual language across the studio's brand applications.",
    "My role: Brand Identity, Logo Design, Brand Guidelines"
   ],
   "credits": [],
@@ -1240,103 +1394,120 @@
    [
     {
      "type": "image",
-     "src": "assets/img/projects/casetta-pizzeria/01.jpg",
-     "alt": "Casetta tile pattern",
+     "src": "assets/img/projects/alle-marie/01.jpg",
      "w": 753,
      "h": 864
     },
     {
      "type": "image",
-     "src": "assets/img/projects/casetta-pizzeria/02.jpg",
-     "alt": "Margherita pizza close-up",
-     "w": 753,
-     "h": 864
-    }
-   ],
-   {
-    "type": "image",
-    "src": "assets/img/projects/casetta-pizzeria/03.jpg",
-    "w": 1516,
-    "h": 913
-   },
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/casetta-pizzeria/04.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/casetta-pizzeria/05.jpg",
+     "src": "assets/img/projects/alle-marie/02.jpg",
      "w": 753,
      "h": 864
     }
    ],
    [
     {
-     "type": "video",
+     "type": "image",
+     "src": "assets/img/projects/alle-marie/03.jpg",
      "w": 753,
-     "h": 864,
-     "src": "assets/video/casetta-pizzeria/casetta-3.mp4",
-     "poster": "assets/video/casetta-pizzeria/casetta-3.jpg"
+     "h": 864
     },
     {
      "type": "image",
-     "src": "assets/img/projects/casetta-pizzeria/07.jpg",
+     "src": "assets/img/projects/alle-marie/04.jpg",
      "w": 753,
      "h": 864
     }
    ],
    {
     "type": "image",
-    "src": "assets/img/projects/casetta-pizzeria/08.jpg",
+    "src": "assets/img/projects/alle-marie/05.jpg",
     "w": 1516,
     "h": 913
    },
    [
     {
      "type": "image",
-     "src": "assets/img/projects/casetta-pizzeria/09.jpg",
+     "src": "assets/img/projects/alle-marie/06.jpg",
      "w": 753,
      "h": 864
     },
     {
      "type": "image",
-     "src": "assets/img/projects/casetta-pizzeria/10.jpg",
+     "src": "assets/img/projects/alle-marie/07.jpg",
      "w": 753,
      "h": 864
     }
    ],
    {
     "type": "image",
-    "src": "assets/img/projects/casetta-pizzeria/11.jpg",
-    "w": 1516,
-    "h": 913
-   },
-   {
-    "type": "image",
-    "src": "assets/img/projects/casetta-pizzeria/12.jpg",
+    "src": "assets/img/projects/alle-marie/08.jpg",
     "w": 1516,
     "h": 913
    },
    [
     {
      "type": "image",
-     "src": "assets/img/projects/casetta-pizzeria/13.jpg",
+     "src": "assets/img/projects/alle-marie/09.jpg",
      "w": 753,
      "h": 864
     },
     {
      "type": "image",
-     "src": "assets/img/projects/casetta-pizzeria/14.jpg",
+     "src": "assets/img/projects/alle-marie/10.jpg",
      "w": 753,
      "h": 864
     }
    ],
    {
     "type": "image",
-    "src": "assets/img/projects/casetta-pizzeria/15.jpg",
+    "src": "assets/img/projects/alle-marie/11.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/alle-marie/12.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/alle-marie/13.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/alle-marie/14.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/alle-marie/15.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/alle-marie/16.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/alle-marie/17.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/alle-marie/18.jpg",
     "w": 1516,
     "h": 913
    }
@@ -1364,69 +1535,95 @@
    "h": 953
   },
   "about": [
-   "A series of floral illustrations developed in collaboration with an architectural studio for an interior design project. Inspired by organic shapes and botanical forms, the illustrations were created to complement the character of the space, bringing a subtle artistic and decorative element into the interior.",
+   "A series of floral illustrations developed in collaboration with an architectural studio for an interior design project.",
+   "Inspired by organic shapes and botanical forms, the illustrations were created to complement the character of the space, bringing a subtle artistic and decorative element into the interior.",
    "My role: Illustration, Visual Concept Development"
   ],
   "credits": [],
   "gallery": [
-   {
-    "mobileScroll": true,
-    "items": [
-     {
-      "type": "image",
-      "src": "assets/img/projects/floral-illustrations/01.jpg",
-      "w": 753,
-      "h": 864
-     },
-     {
-      "type": "image",
-      "src": "assets/img/projects/floral-illustrations/02.jpg",
-      "w": 753,
-      "h": 864
-     }
-    ]
-   },
-   {
-    "type": "image",
-    "src": "assets/img/projects/floral-illustrations/03.jpg",
-    "w": 1516,
-    "h": 913
-   },
    [
     {
      "type": "image",
-     "src": "assets/img/projects/floral-illustrations/04.jpg",
+     "src": "assets/img/projects/floral-illustrations/01.jpg",
      "w": 753,
      "h": 864
     },
     {
      "type": "image",
+     "src": "assets/img/projects/floral-illustrations/02.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/floral-illustrations/03.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/floral-illustrations/04.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   [
+    {
+     "type": "image",
      "src": "assets/img/projects/floral-illustrations/05.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/floral-illustrations/06.jpg",
      "w": 753,
      "h": 864
     }
    ],
    {
     "type": "image",
-    "src": "assets/img/projects/floral-illustrations/06.jpg",
-    "w": 1516,
-    "h": 913
-   },
-   {
-    "type": "image",
     "src": "assets/img/projects/floral-illustrations/07.jpg",
     "w": 1516,
     "h": 913
    },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/floral-illustrations/08.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/floral-illustrations/09.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
    {
     "type": "image",
-    "src": "assets/img/projects/floral-illustrations/08.jpg",
+    "src": "assets/img/projects/floral-illustrations/10.jpg",
     "w": 1516,
     "h": 913
    },
    {
     "type": "image",
-    "src": "assets/img/projects/floral-illustrations/09.jpg",
+    "src": "assets/img/projects/floral-illustrations/11.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/floral-illustrations/12.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/floral-illustrations/13.jpg",
     "w": 1516,
     "h": 913
    }

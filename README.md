@@ -76,8 +76,11 @@ it with Experience on 2026-10-12).
   `--surface`, `--related-bg`, `--footer-bg/fg` and `--muted` variables at the top of `style.css`.
   The logo and LinkedIn icon use `currentColor` so they follow the theme.
 
-- All 170 project images are exported from Figma (JPG at 1.5x). Each block keeps its Figma node
-  id in `data/projects.json` (`figmaNode`) in case one needs re-exporting at a higher resolution.
-- All 9 videos are in place as H.264 mp4 (1920px wide for full-width blocks, 1130px for half
+- Project images are exported from Figma (JPG, 2000px wide for full-width blocks, 1200px for half
+  blocks). A block with `"src": ""` shows a grey placeholder; such blocks keep their Figma node id
+  (`figmaNode`) so the image can be exported later. A Figma `.fig` export is a zip whose `images/`
+  folder holds every source image named by the same hash the API uses, so plain image blocks can be
+  rebuilt from it without API access (done for the 2026-10-16 update).
+- The 12 videos are H.264 mp4 (1920px wide for full-width blocks, 1130px for half
   blocks), silent and looping. Add `"controls": true` to a video item to show the player bar;
   only the Josh campaign film has it, as it keeps its soundtrack.
