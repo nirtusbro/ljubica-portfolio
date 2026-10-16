@@ -16,7 +16,8 @@ assets/video/         project videos (mp4) with poster frames (jpg)
 assets/svg/           logo (logo-short.svg = "Ljubica" only, shown on phones) and LinkedIn icon
 favicon.ico, favicon-*.png, apple-touch-icon.png,
 android-chrome-*.png, site.webmanifest   favicon set (pink "Љ" circle)
-data/site.json        name, intro text, email, LinkedIn URL, nav, experience
+og-image.png          1200x630 preview shown when a link is shared (Telegram, Discord, X…)
+data/site.json        name, intro text, email, LinkedIn URL, site URL, nav, experience
 data/projects.json    the 12 projects (title, tags, thumbnail, hover art, page content)
 build.js              regenerates the HTML from the data files
 ```
@@ -67,6 +68,10 @@ it with Experience on 2026-10-12).
   phone strip still shows all of them in one swipe.
 
 ## Notes
+
+- Link previews: every page carries Open Graph / Twitter meta tags pointing at `og-image.png`.
+  They need absolute URLs, so `url` in `data/site.json` must be the address the site is served from
+  (now the GitHub Pages URL); change it and rebuild if the site moves to its own domain.
 
 - Card thumbnails (`assets/img/card-*.jpg`) were zoom-cropped by 12px per side (at 2x) on 2026-10-12 to
   drop the white rounded corners baked into the Figma exports, which showed on the dark theme. If a

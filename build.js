@@ -53,7 +53,11 @@ function footer() {
   </footer>`;
 }
 
-function page({ rel, current, title, description, body, bodyClass = '' }) {
+function page({ rel, current, title, description, body, bodyClass = '', path = '' }) {
+  // Open Graph / Twitter cards: what Telegram, Discord, X, LinkedIn etc. show when a link is shared.
+  // They need absolute URLs, built from `url` in data/site.json (change it if the site moves).
+  const base = (site.url || '').replace(/\/+$/, '');
+  const pageUrl = base ? `${base}/${path}` : '';
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -61,6 +65,19 @@ function page({ rel, current, title, description, body, bodyClass = '' }) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${esc(title)}</title>
   <meta name="description" content="${esc(description)}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="${esc(site.name)}">
+  <meta property="og:title" content="${esc(title)}">
+  <meta property="og:description" content="${esc(description)}">${pageUrl ? `
+  <meta property="og:url" content="${esc(pageUrl)}">
+  <meta property="og:image" content="${base}/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="${esc(site.name)} logo">
+  <meta name="twitter:image" content="${base}/og-image.png">` : ''}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="${esc(title)}">
+  <meta name="twitter:description" content="${esc(description)}">
   <link rel="icon" href="${rel}favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="${rel}favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="${rel}favicon-16x16.png">
@@ -125,7 +142,7 @@ ${site.intro.map((t) => `        <p>${esc(t)}</p>`).join('\n')}
 ${projects.map((p, i) => card(p, rel, { eager: i < 5 })).join('\n')}
       </div>
     </section>`;
-  return page({ rel, current: 'work', title: site.title, description: site.description, body });
+  return page({ rel, current: 'work', title: site.title, description: site.description, body, path: '' });
 }
 
 function aboutPage() {
@@ -147,7 +164,7 @@ ${site.intro.map((t) => `        <p>${esc(t)}</p>`).join('\n')}
 ${jobs}
       </ul>
     </section>`;
-  return page({ rel, current: 'about', title: `About — ${site.name}`, description: site.description, body });
+  return page({ rel, current: 'about', title: `About — ${site.name}`, description: site.description, body, path: 'about.html' });
 }
 
 // Videos autoplay silently and loop, like the Figma placeholders imply. `controls: true` adds
@@ -242,6 +259,7 @@ ${others.map((o) => card(o, rel)).join('\n')}
   return page({
     rel, current: 'work', title: `${p.title} — ${site.name}`,
     description: `${p.title}: ${p.tags}. ${site.description}`, body, bodyClass: 'page-project',
+    path: `work/${p.slug}.html`,
   });
 }
 
