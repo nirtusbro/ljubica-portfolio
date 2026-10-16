@@ -158,7 +158,7 @@ function aboutPage() {
           <p class="job__period">${esc(j.period)}</p>
         </li>`).join('\n');
   const body = `    <section class="intro intro--center">
-      <div class="portrait"><img src="assets/img/about-portrait.jpg" alt="${esc(site.name)}" width="197" height="274"></div>
+      <div class="portrait"><img src="${rel}assets/img/about-portrait.jpg" alt="${esc(site.name)}" width="197" height="274"></div>
       <div class="intro__text">
 ${site.intro.map((t) => `        <p>${esc(t)}</p>`).join('\n')}
       </div>
