@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-// Generates index.html, about.html and work/<slug>.html from data/*.json.
+// Generates index.html, about/index.html and work/<slug>/index.html from data/*.json.
+// Every page is a folder with an index.html so URLs never show ".html" (/about/, /work/<slug>/).
 // Run:  node build.js
 'use strict';
 
@@ -20,13 +21,17 @@ const esc = (s) => String(s)
 // ---------- shared pieces ----------
 
 function header(rel, current) {
+  // The home page is linked as the folder ("./" or "../"), not "index.html", so the address bar
+  // stays clean on GitHub Pages and any other host that serves index.html for a folder.
+  const home = rel || './';
   const links = site.nav.map((n) => {
-    const href = n.href.startsWith('#') ? (current === 'work' || current === 'about' ? n.href : rel + 'index.html' + n.href) : rel + n.href;
+    const href = n.href.startsWith('#') ? (current === 'work' || current === 'about' ? n.href : home + n.href)
+      : n.href === 'index.html' ? home : rel + n.href.replace(/\.html$/, '/');
     const cur = n.id === current ? ' aria-current="page"' : '';
     return `        <li><a href="${href}"${cur}>${esc(n.label)}</a></li>`;
   }).join('\n');
   return `  <header class="site-header">
-    <a class="site-header__logo" href="${rel}index.html" aria-label="${esc(site.name)} — home">
+    <a class="site-header__logo" href="${home}" aria-label="${esc(site.name)} — home">
       ${logoSvg}
       ${logoShortSvg}
     </a>
@@ -117,7 +122,7 @@ function card(p, rel, { eager = false } = {}) {
   const media = [];
   if (thumb) media.push(layer('card__thumb', thumb, rel, p.title).replace('loading="lazy"', eager ? 'loading="eager"' : 'loading="lazy"'));
   if (hover) media.push(layer('card__hover', hover, rel, '').replace('card__hover card__layer', 'card__hover card__layer'));
-  return `        <a class="card" href="${rel}work/${p.slug}.html"${hover ? ' data-has-hover' : ''}>
+  return `        <a class="card" href="${rel}work/${p.slug}/"${hover ? ' data-has-hover' : ''}>
           <span class="card__media">
             ${media.join('\n            ')}
           </span>
@@ -146,7 +151,7 @@ ${projects.map((p, i) => card(p, rel, { eager: i < 5 })).join('\n')}
 }
 
 function aboutPage() {
-  const rel = '';
+  const rel = '../';
   const jobs = (site.experience || []).map((j) => `        <li class="job">
           <h2 class="job__company">${esc(j.company)}</h2>
           <p class="job__role">${esc(j.role)}</p>
@@ -164,7 +169,7 @@ ${site.intro.map((t) => `        <p>${esc(t)}</p>`).join('\n')}
 ${jobs}
       </ul>
     </section>`;
-  return page({ rel, current: 'about', title: `About — ${site.name}`, description: site.description, body, path: 'about.html' });
+  return page({ rel, current: 'about', title: `About — ${site.name}`, description: site.description, body, path: 'about/' });
 }
 
 // Videos autoplay silently and loop, like the Figma placeholders imply. `controls: true` adds
@@ -223,7 +228,7 @@ function heroHtml(hero, rel, title) {
 }
 
 function projectPage(p, index) {
-  const rel = '../';
+  const rel = '../../';
   const others = [];
   for (let k = 1; others.length < 4 && k < projects.length; k++) {
     others.push(projects[(index + k) % projects.length]);
@@ -259,14 +264,18 @@ ${others.map((o) => card(o, rel)).join('\n')}
   return page({
     rel, current: 'work', title: `${p.title} — ${site.name}`,
     description: `${p.title}: ${p.tags}. ${site.description}`, body, bodyClass: 'page-project',
-    path: `work/${p.slug}.html`,
+    path: `work/${p.slug}/`,
   });
 }
 
 // ---------- write ----------
 
-fs.mkdirSync(path.join(ROOT, 'work'), { recursive: true });
-fs.writeFileSync(path.join(ROOT, 'index.html'), homePage());
-fs.writeFileSync(path.join(ROOT, 'about.html'), aboutPage());
-projects.forEach((p, i) => fs.writeFileSync(path.join(ROOT, 'work', `${p.slug}.html`), projectPage(p, i)));
-console.log(`Built index.html, about.html and ${projects.length} project pages.`);
+const writePage = (dir, html) => { fs.mkdirSync(dir, { recursive: true }); fs.writeFileSync(path.join(dir, 'index.html'), html); };
+writePage(ROOT, homePage());
+writePage(path.join(ROOT, 'about'), aboutPage());
+projects.forEach((p, i) => writePage(path.join(ROOT, 'work', p.slug), projectPage(p, i)));
+// Remove pages left over from the old flat layout (about.html, work/<slug>.html).
+for (const f of ['about.html', ...fs.readdirSync(path.join(ROOT, 'work')).filter((f) => f.endsWith('.html')).map((f) => path.join('work', f))]) {
+  if (fs.existsSync(path.join(ROOT, f))) fs.unlinkSync(path.join(ROOT, f));
+}
+console.log(`Built index.html, about/ and ${projects.length} project pages under work/.`);

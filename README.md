@@ -7,8 +7,8 @@ dependencies: plain HTML, CSS and a little JavaScript.
 
 ```
 index.html            home (work grid)          ← generated
-about.html            about + experience        ← generated
-work/<slug>.html      one page per project      ← generated
+about/index.html      about + experience        ← generated  (served as /about/)
+work/<slug>/index.html  one page per project    ← generated  (served as /work/<slug>/)
 assets/css/style.css  all styling
 assets/js/main.js     card hover on touch, horizontal rows, video play/pause, light/dark toggle
 assets/img/           thumbnails, hover artwork, portrait, project images
