@@ -334,7 +334,8 @@ h1, h2, h3 { margin: 0; font-weight: inherit; font-size: inherit; }
 }
 .gallery-row--scroll::-webkit-scrollbar { display: none; }
 .gallery-row--scroll.is-dragging { cursor: grabbing; user-select: none; }
-.gallery-row--scroll figure { flex: 0 0 calc(var(--item, 50%) - 5px); }
+/* 10% narrower than Figma so a sliver of the next block peeks in and signals the row scrolls. */
+.gallery-row--scroll figure { flex: 0 0 calc(var(--item, 50%) * 0.9 - 5px); }
 
 .related {
   background: var(--related-bg);
