@@ -161,6 +161,7 @@ function aboutPage() {
       <div class="portrait"><img src="${rel}assets/img/about-portrait.jpg" alt="${esc(site.name)}" width="197" height="274"></div>
       <div class="intro__text">
 ${site.intro.map((t) => `        <p>${esc(t)}</p>`).join('\n')}
+        <p class="intro__cv"><a href="${rel}assets/Ljubica-Sijan-CV.pdf" download="Ljubica-Sijan-CV.pdf">Download CV</a></p>
       </div>
     </section>
     <section class="experience" aria-labelledby="experience-heading">
@@ -221,10 +222,13 @@ function heroHtml(hero, rel, title) {
     const label = hero && hero.type === 'video' ? 'Video' : 'Image coming soon';
     return `      <div class="project__hero project__hero--placeholder" aria-hidden="true"><span>${label}</span></div>`;
   }
+  // The hero box takes the media's own ratio (w/h in projects.json) so nothing is cropped;
+  // the stylesheet's 1516/953 is only the fallback.
+  const ratio = hero.w && hero.h ? ` style="aspect-ratio:${hero.w}/${hero.h}"` : '';
   if (hero.type === 'video') {
-    return `      <div class="project__hero">${videoTag(hero, rel)}</div>`;
+    return `      <div class="project__hero"${ratio}>${videoTag(hero, rel)}</div>`;
   }
-  return `      <div class="project__hero"><img src="${rel}${hero.src}" alt="${esc(title)}" width="${hero.w || 1516}" height="${hero.h || 953}"></div>`;
+  return `      <div class="project__hero"${ratio}><img src="${rel}${hero.src}" alt="${esc(title)}" width="${hero.w || 1516}" height="${hero.h || 953}"></div>`;
 }
 
 function projectPage(p, index) {

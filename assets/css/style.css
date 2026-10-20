@@ -113,6 +113,9 @@ h1, h2, h3 { margin: 0; font-weight: inherit; font-size: inherit; }
 
 .intro--center { padding-top: 35px; padding-bottom: 63px; display: flex; flex-direction: column; align-items: center; }
 .intro--center .intro__text { max-width: 678px; text-align: center; margin-top: 66px; }
+.intro__cv { margin-top: 1em; }
+.intro__cv a { text-decoration: underline; text-underline-offset: 3px; }
+.intro__cv a:hover { text-decoration: none; }
 
 .portrait {
   width: 197px; height: 274px;
@@ -273,7 +276,18 @@ h1, h2, h3 { margin: 0; font-weight: inherit; font-size: inherit; }
   background: var(--surface);
   aspect-ratio: 1516 / 953;
 }
-.project__hero img, .project__hero video { width: 100%; height: 100%; object-fit: cover; }
+/* Media is drawn 1px larger than the box: on iOS Safari a hero whose pixel ratio differs from the
+   declared 1516/953 is scaled to a sub-pixel size and leaves a hairline of the box background
+   showing on the right edge. */
+.project__hero { position: relative; }
+.project__hero img, .project__hero video {
+  position: absolute;
+  inset: -1px;
+  width: calc(100% + 2px);
+  max-width: none;
+  height: calc(100% + 2px);
+  object-fit: cover;
+}
 .project__hero--placeholder, .gallery-placeholder {
   display: flex;
   align-items: center;
@@ -304,6 +318,11 @@ h1, h2, h3 { margin: 0; font-weight: inherit; font-size: inherit; }
 .gallery-row { display: grid; gap: 20px 10px; grid-template-columns: repeat(var(--cols, 1), minmax(0, 1fr)); }
 .gallery-row figure { margin: 0; border-radius: var(--radius); overflow: hidden; background: var(--surface); }
 .gallery-row img, .gallery-row video { width: 100%; height: 100%; object-fit: cover; }
+/* Videos are drawn 1px larger than their figure: iOS Safari scales a video whose pixel ratio differs
+   from the figure ratio to a sub-pixel size and leaves a hairline of the figure background on the
+   right edge (seen on lepo-1 and the Miro stickers hero). */
+.gallery-row figure { position: relative; }
+.gallery-row video { position: absolute; inset: -1px; width: calc(100% + 2px); max-width: none; height: calc(100% + 2px); }
 
 /* Rows whose blocks overflow the Figma width scroll sideways. */
 .gallery-row--scroll {
@@ -392,6 +411,7 @@ h1, h2, h3 { margin: 0; font-weight: inherit; font-size: inherit; }
   .project__hero, .project__gallery { margin-left: var(--gutter); margin-right: var(--gutter); }
   .project__about { margin: 0 var(--gutter); padding: 50px 0; }
   .project__gallery { gap: 10px; padding-bottom: 50px; }
+  .gallery-row { gap: 10px; }  /* same gap inside a row as between rows, so stacked grid items match single images */
   .gallery-row { grid-template-columns: repeat(min(var(--cols, 1), 2), minmax(0, 1fr)); }
   .gallery-row--scroll figure { flex-basis: 80%; }
   /* Rows flagged mobileScroll keep their row layout on phones and scroll sideways. */
