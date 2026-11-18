@@ -241,7 +241,8 @@ function projectPage(p, index) {
   const about = (p.about && p.about.length)
     ? p.about.map((t) => {
         const year = p.year && /^My role:/i.test(t) ? `<br>Year: ${esc(p.year)}` : '';
-        return `        <p>${esc(t)}${year}</p>`;
+        // A line break inside a paragraph ("\n" in projects.json) becomes <br>: new line, no gap.
+        return `        <p>${esc(t).replace(/\n/g, '<br>')}${year}</p>`;
       }).join('\n')
     : '';
   const credits = (p.credits && p.credits.length)
