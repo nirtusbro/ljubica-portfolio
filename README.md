@@ -18,7 +18,7 @@ favicon.ico, favicon-*.png, apple-touch-icon.png,
 android-chrome-*.png, site.webmanifest   favicon set (pink "Љ" circle)
 og-image.png          1200x630 preview shown when a link is shared (Telegram, Discord, X…)
 data/site.json        name, intro text, email, LinkedIn URL, site URL, nav, experience
-data/projects.json    the 12 projects (title, tags, thumbnail, hover art, page content)
+data/projects.json    the 13 projects (title, tags, thumbnail, hover art, page content)
 build.js              regenerates the HTML from the data files
 ```
 
@@ -86,6 +86,6 @@ it with Experience on 2026-10-12).
   (`figmaNode`) so the image can be exported later. A Figma `.fig` export is a zip whose `images/`
   folder holds every source image named by the same hash the API uses, so plain image blocks can be
   rebuilt from it without API access (done for the 2026-10-16 update).
-- The 12 videos are H.264 mp4 (1920px wide for full-width blocks, 1130px for half
+- The 13 videos are H.264 mp4 (1920px wide for full-width blocks, 1130px for half
   blocks), silent and looping. Add `"controls": true` to a video item to show the player bar;
   only the Josh campaign film has it, as it keeps its soundtrack.

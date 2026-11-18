@@ -66,6 +66,7 @@
   "experience": [
     {
       "company": "Miro",
+      "url": "https://miro.com",
       "role": "Senior Graphic Designer",
       "period": "Jun 2024 - Present • Full-time"
     },
@@ -76,16 +77,19 @@
     },
     {
       "company": "Popular Communications",
+      "url": "https://popular.rs",
       "role": "Senior Graphic Designer",
       "period": "Apr 2019 - Oct 2021 • Full-time"
     },
     {
       "company": "Leo Burnett",
+      "url": "https://leo-constellation.com",
       "role": "Graphic Designer",
       "period": "Jan 2018 - Apr 2019 • Full-time"
     },
     {
       "company": "de:work",
+      "url": "https://dework.rs",
       "role": "Graphic Design Intern",
       "period": "Aug 2017 - Oct 2017 • Internship"
     }

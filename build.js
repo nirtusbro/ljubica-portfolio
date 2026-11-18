@@ -153,7 +153,7 @@ ${projects.map((p, i) => card(p, rel, { eager: i < 5 })).join('\n')}
 function aboutPage() {
   const rel = '../';
   const jobs = (site.experience || []).map((j) => `        <li class="job">
-          <h2 class="job__company">${esc(j.company)}</h2>
+          <h2 class="job__company">${j.url ? `<a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.company)}</a>` : esc(j.company)}</h2>
           <p class="job__role">${esc(j.role)}</p>
           <p class="job__period">${esc(j.period)}</p>
         </li>`).join('\n');

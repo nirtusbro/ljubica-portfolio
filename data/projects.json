@@ -900,77 +900,94 @@
   ]
  },
  {
-  "slug": "miro-100-wayfinding-system",
-  "title": "Miro 100 / Wayfinding System",
-  "tags": "Wayfinding Design, Environmental Graphics",
-  "year": "2025",
-  "thumb": "assets/img/card-miro-100.jpg",
+  "slug": "miro-innovation-wonderland",
+  "title": "Miro Innovation Wonderland",
+  "tags": "Concept Development, Visual Design, Illustration",
+  "year": "2024",
+  "thumb": "assets/img/card-miro-innovation-wonderland.jpg",
   "hover": {
-   "src": "assets/img/hover/hover-miro-100.svg"
+   "src": "assets/img/hover/hover-miro-innovation-wonderland.svg"
   },
   "hero": {
    "type": "image",
-   "src": "assets/img/projects/miro-100-wayfinding-system/hero.jpg",
+   "src": "assets/img/projects/miro-innovation-wonderland/hero.jpg",
    "w": 1516,
    "h": 953
   },
   "about": [
-   "A wayfinding system developed for Miro's Amsterdam office, designed to make navigation intuitive while bringing the brand's digital identity into the physical workspace. Inspired by the familiar grid structure of a Miro board, the design translates a recognisable product element into a functional architectural feature. A modular system of typography, colour coding and directional information creates a consistent visual language across different floors and office zones. The result is a wayfinding experience that connects the digital and physical worlds of Miro.",
-   "My role: Wayfinding Design, Environmental Graphics, Visual System Development",
-   "* This project was developed as part of a collaborative creative team."
+   "An end-of-year promotional campaign for 2024, inspired by the playful concept of an Advent calendar.",
+   "The visual identity builds on Miro's signature grid, incorporating interactive-looking windows that reveal colorful elements and hidden surprises, capturing the excitement of opening an Advent calendar.",
+   "As part of the campaign, we also created an interactive Miro board for the Miro Community, designed as a festive wonderland filled with doors to explore. Each door revealed a different activity, surprise, or newly released Miro feature, inviting community members to discover, interact, and celebrate the year's innovations in a playful and engaging way.",
+   "My role: Concept Development, Visual Design, Illustration & Social Media Assets",
+   "* This project was developed in collaboration with another designer."
   ],
   "credits": [],
   "gallery": [
+   {
+    "type": "image",
+    "src": "assets/img/projects/miro-innovation-wonderland/01.jpg",
+    "w": 1516,
+    "h": 972
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/miro-innovation-wonderland/02.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/miro-innovation-wonderland/03.jpg",
+    "w": 1516,
+    "h": 531
+   },
    [
     {
      "type": "image",
-     "src": "assets/img/projects/miro-100-wayfinding-system/01.jpg",
+     "src": "assets/img/projects/miro-innovation-wonderland/04.jpg",
      "w": 753,
-     "h": 864
+     "h": 753
     },
     {
      "type": "image",
-     "src": "assets/img/projects/miro-100-wayfinding-system/02.jpg",
+     "src": "assets/img/projects/miro-innovation-wonderland/05.jpg",
      "w": 753,
-     "h": 864
+     "h": 753
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/miro-innovation-wonderland/06.jpg",
+     "w": 753,
+     "h": 753
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/miro-innovation-wonderland/07.jpg",
+     "w": 753,
+     "h": 753
     }
    ],
    {
-    "type": "image",
-    "src": "assets/img/projects/miro-100-wayfinding-system/03.jpg",
-    "w": 1516,
-    "h": 830
+    "type": "video",
+    "w": 2000,
+    "h": 832,
+    "src": "assets/video/miro-innovation-wonderland/eoy.mp4",
+    "poster": "assets/video/miro-innovation-wonderland/eoy.jpg"
    },
-   {
-    "type": "image",
-    "src": "assets/img/projects/miro-100-wayfinding-system/04.jpg",
-    "w": 1516,
-    "h": 475
-   },
-   {
-    "type": "image",
-    "src": "assets/img/projects/miro-100-wayfinding-system/05.jpg",
-    "w": 1516,
-    "h": 913
-   },
-   {
-    "type": "image",
-    "src": "assets/img/projects/miro-100-wayfinding-system/06.jpg",
-    "w": 1516,
-    "h": 913
-   },
-   {
-    "type": "image",
-    "src": "assets/img/projects/miro-100-wayfinding-system/07.jpg",
-    "w": 1516,
-    "h": 913
-   },
-   {
-    "type": "image",
-    "src": "assets/img/projects/miro-100-wayfinding-system/08.jpg",
-    "w": 1516,
-    "h": 913
-   }
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/miro-innovation-wonderland/08.jpg",
+     "w": 753,
+     "h": 865
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/miro-innovation-wonderland/09.jpg",
+     "w": 753,
+     "h": 865
+    }
+   ]
   ]
  },
  {
@@ -1149,234 +1166,6 @@
   ]
  },
  {
-  "slug": "fun-and-fit-plum-pleasure",
-  "title": "Fun & Fit Plum Pleasure",
-  "tags": "Packaging Design, Art Direction",
-  "year": "2023",
-  "thumb": "assets/img/card-plum-pleasure.jpg",
-  "hover": {
-   "src": "assets/img/hover/hover-plum-pleasure.svg"
-  },
-  "hero": {
-   "type": "image",
-   "src": "assets/img/projects/fun-and-fit-plum-pleasure/hero.jpg",
-   "w": 1516,
-   "h": 953
-  },
-  "about": [
-   "A packaging design for Fun&Fit Plum Pleasure, a chocolate-covered plum treat inspired by the timeless charm of traditional confectionery. The concept draws on classic chocolate gift boxes, combining decorative details, subtle ornamental elements and a rich purple colour palette. The result is a playful yet elegant packaging design that gives the product a distinctive, gift-worthy character.",
-   "My role: Packaging Design, Visual Concept Development"
-  ],
-  "credits": [],
-  "gallery": [
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/fun-and-fit-plum-pleasure/01.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/fun-and-fit-plum-pleasure/02.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
-   {
-    "mobileScroll": true,
-    "items": [
-     {
-      "type": "image",
-      "src": "assets/img/projects/fun-and-fit-plum-pleasure/03.jpg",
-      "w": 753,
-      "h": 864
-     },
-     {
-      "type": "image",
-      "src": "assets/img/projects/fun-and-fit-plum-pleasure/04.jpg",
-      "w": 753,
-      "h": 864
-     }
-    ]
-   },
-   {
-    "type": "image",
-    "src": "assets/img/projects/fun-and-fit-plum-pleasure/05.jpg",
-    "w": 1516,
-    "h": 913
-   },
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/fun-and-fit-plum-pleasure/06.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/fun-and-fit-plum-pleasure/07.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
-   {
-    "type": "image",
-    "src": "assets/img/projects/fun-and-fit-plum-pleasure/08.jpg",
-    "w": 1516,
-    "h": 913
-   },
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/fun-and-fit-plum-pleasure/09.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/fun-and-fit-plum-pleasure/10.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
-   {
-    "mobileScroll": true,
-    "cols": 2,
-    "items": [
-     {
-      "type": "image",
-      "src": "assets/img/projects/fun-and-fit-plum-pleasure/11.jpg",
-      "w": 753,
-      "h": 864
-     },
-     {
-      "type": "image",
-      "src": "assets/img/projects/fun-and-fit-plum-pleasure/12.jpg",
-      "w": 753,
-      "h": 864
-     },
-     {
-      "type": "image",
-      "src": "assets/img/projects/fun-and-fit-plum-pleasure/13.jpg",
-      "w": 753,
-      "h": 864
-     },
-     {
-      "type": "image",
-      "src": "assets/img/projects/fun-and-fit-plum-pleasure/14.jpg",
-      "w": 753,
-      "h": 864
-     }
-    ]
-   }
-  ]
- },
- {
-  "slug": "josh-campaign",
-  "title": "Josh Campaign",
-  "tags": "OOH Campaign Design",
-  "year": "2023",
-  "thumb": "assets/img/card-josh.jpg",
-  "hover": {
-   "src": "assets/img/hover/hover-josh.svg"
-  },
-  "hero": {
-   "type": "image",
-   "src": "assets/img/projects/josh-campaign/hero.jpg",
-   "w": 1516,
-   "h": 953
-  },
-  "about": [
-   "A bold and energetic campaign for JOSH!, a snack brand by Bambi, created to connect with a new generation of consumers. The campaign introduced Black Fish, a mysterious female rapper and graffiti artist, as the face of a new communication platform inspired by youth culture, trap music and contemporary social media trends. As part of the agency's creative team, I worked on the campaign's key visuals and out-of-home executions, translating its rebellious attitude into striking, high-impact graphics designed to capture attention in urban spaces.",
-   "My role: Key Visual Design, OOH Campaign Design",
-   "* This project was developed as part of a collaborative creative team."
-  ],
-  "credits": [],
-  "gallery": [
-   {
-    "type": "video",
-    "w": 1516,
-    "h": 913,
-    "src": "assets/video/josh-campaign/josh.mp4",
-    "poster": "assets/video/josh-campaign/josh.jpg",
-    "controls": true
-   },
-   {
-    "type": "image",
-    "src": "assets/img/projects/josh-campaign/02.jpg",
-    "w": 1516,
-    "h": 913
-   },
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/josh-campaign/03.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/josh-campaign/04.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
-   {
-    "type": "image",
-    "src": "assets/img/projects/josh-campaign/05.jpg",
-    "w": 1516,
-    "h": 913
-   },
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/josh-campaign/06.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/josh-campaign/07.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
-   {
-    "type": "image",
-    "src": "assets/img/projects/josh-campaign/08.jpg",
-    "w": 1516,
-    "h": 913
-   },
-   [
-    {
-     "type": "image",
-     "src": "assets/img/projects/josh-campaign/09.jpg",
-     "w": 753,
-     "h": 864
-    },
-    {
-     "type": "image",
-     "src": "assets/img/projects/josh-campaign/10.jpg",
-     "w": 753,
-     "h": 864
-    }
-   ],
-   {
-    "type": "image",
-    "src": "assets/img/projects/josh-campaign/11.jpg",
-    "w": 1516,
-    "h": 913
-   },
-   {
-    "type": "image",
-    "src": "assets/img/projects/josh-campaign/12.jpg",
-    "w": 1516,
-    "h": 913
-   }
-  ]
- },
- {
   "slug": "alle-marie",
   "title": "Alle ’ Marie",
   "tags": "Brand Identity, Brand Guidelines",
@@ -1520,6 +1309,184 @@
   ]
  },
  {
+  "slug": "josh-campaign",
+  "title": "Josh Campaign",
+  "tags": "OOH Campaign Design",
+  "year": "2023",
+  "thumb": "assets/img/card-josh.jpg",
+  "hover": {
+   "src": "assets/img/hover/hover-josh.svg"
+  },
+  "hero": {
+   "type": "image",
+   "src": "assets/img/projects/josh-campaign/hero.jpg",
+   "w": 1516,
+   "h": 953
+  },
+  "about": [
+   "A bold and energetic campaign for JOSH!, a snack brand by Bambi, created to connect with a new generation of consumers. The campaign introduced Black Fish, a mysterious female rapper and graffiti artist, as the face of a new communication platform inspired by youth culture, trap music and contemporary social media trends. As part of the agency's creative team, I worked on the campaign's key visuals and out-of-home executions, translating its rebellious attitude into striking, high-impact graphics designed to capture attention in urban spaces.",
+   "My role: Key Visual Design, OOH Campaign Design",
+   "* This project was developed as part of a collaborative creative team."
+  ],
+  "credits": [],
+  "gallery": [
+   {
+    "type": "video",
+    "w": 1516,
+    "h": 913,
+    "src": "assets/video/josh-campaign/josh.mp4",
+    "poster": "assets/video/josh-campaign/josh.jpg",
+    "controls": true
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/josh-campaign/02.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/josh-campaign/03.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/josh-campaign/04.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/josh-campaign/05.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/josh-campaign/06.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/josh-campaign/07.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/josh-campaign/08.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/josh-campaign/09.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/josh-campaign/10.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/josh-campaign/11.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/josh-campaign/12.jpg",
+    "w": 1516,
+    "h": 913
+   }
+  ]
+ },
+ {
+  "slug": "miro-100-wayfinding-system",
+  "title": "Miro 100 / Wayfinding System",
+  "tags": "Wayfinding Design, Environmental Graphics",
+  "year": "2025",
+  "thumb": "assets/img/card-miro-100.jpg",
+  "hover": {
+   "src": "assets/img/hover/hover-miro-100.svg"
+  },
+  "hero": {
+   "type": "image",
+   "src": "assets/img/projects/miro-100-wayfinding-system/hero.jpg",
+   "w": 1516,
+   "h": 953
+  },
+  "about": [
+   "A wayfinding system developed for Miro's Amsterdam office, designed to make navigation intuitive while bringing the brand's digital identity into the physical workspace. Inspired by the familiar grid structure of a Miro board, the design translates a recognisable product element into a functional architectural feature. A modular system of typography, colour coding and directional information creates a consistent visual language across different floors and office zones. The result is a wayfinding experience that connects the digital and physical worlds of Miro.",
+   "My role: Wayfinding Design, Environmental Graphics, Visual System Development",
+   "* This project was developed as part of a collaborative creative team."
+  ],
+  "credits": [],
+  "gallery": [
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/miro-100-wayfinding-system/01.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/miro-100-wayfinding-system/02.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/miro-100-wayfinding-system/03.jpg",
+    "w": 1516,
+    "h": 830
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/miro-100-wayfinding-system/04.jpg",
+    "w": 1516,
+    "h": 475
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/miro-100-wayfinding-system/05.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/miro-100-wayfinding-system/06.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/miro-100-wayfinding-system/07.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/miro-100-wayfinding-system/08.jpg",
+    "w": 1516,
+    "h": 913
+   }
+  ]
+ },
+ {
   "slug": "floral-illustrations",
   "title": "Floral Illustrations",
   "tags": "Illustration",
@@ -1632,6 +1599,130 @@
     "src": "assets/img/projects/floral-illustrations/13.jpg",
     "w": 1516,
     "h": 913
+   }
+  ]
+ },
+ {
+  "slug": "fun-and-fit-plum-pleasure",
+  "title": "Fun & Fit Plum Pleasure",
+  "tags": "Packaging Design, Art Direction",
+  "year": "2023",
+  "thumb": "assets/img/card-plum-pleasure.jpg",
+  "hover": {
+   "src": "assets/img/hover/hover-plum-pleasure.svg"
+  },
+  "hero": {
+   "type": "image",
+   "src": "assets/img/projects/fun-and-fit-plum-pleasure/hero.jpg",
+   "w": 1516,
+   "h": 953
+  },
+  "about": [
+   "A packaging design for Fun&Fit Plum Pleasure, a chocolate-covered plum treat inspired by the timeless charm of traditional confectionery. The concept draws on classic chocolate gift boxes, combining decorative details, subtle ornamental elements and a rich purple colour palette. The result is a playful yet elegant packaging design that gives the product a distinctive, gift-worthy character.",
+   "My role: Packaging Design, Visual Concept Development"
+  ],
+  "credits": [],
+  "gallery": [
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-plum-pleasure/01.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-plum-pleasure/02.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "mobileScroll": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/img/projects/fun-and-fit-plum-pleasure/03.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/fun-and-fit-plum-pleasure/04.jpg",
+      "w": 753,
+      "h": 864
+     }
+    ]
+   },
+   {
+    "type": "image",
+    "src": "assets/img/projects/fun-and-fit-plum-pleasure/05.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-plum-pleasure/06.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-plum-pleasure/07.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "type": "image",
+    "src": "assets/img/projects/fun-and-fit-plum-pleasure/08.jpg",
+    "w": 1516,
+    "h": 913
+   },
+   [
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-plum-pleasure/09.jpg",
+     "w": 753,
+     "h": 864
+    },
+    {
+     "type": "image",
+     "src": "assets/img/projects/fun-and-fit-plum-pleasure/10.jpg",
+     "w": 753,
+     "h": 864
+    }
+   ],
+   {
+    "mobileScroll": true,
+    "cols": 2,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/img/projects/fun-and-fit-plum-pleasure/11.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/fun-and-fit-plum-pleasure/12.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/fun-and-fit-plum-pleasure/13.jpg",
+      "w": 753,
+      "h": 864
+     },
+     {
+      "type": "image",
+      "src": "assets/img/projects/fun-and-fit-plum-pleasure/14.jpg",
+      "w": 753,
+      "h": 864
+     }
+    ]
    }
   ]
  }

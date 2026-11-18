@@ -243,6 +243,10 @@ h1, h2, h3 { margin: 0; font-weight: inherit; font-size: inherit; }
   line-height: 24.3px;
 }
 
+.job__company a { cursor: pointer; }
+.job__company a:hover,
+.job__company a:focus-visible { text-decoration: underline; text-underline-position: from-font; }
+
 .job__role {
   font-size: 13.9px;
   line-height: 24.3px;
